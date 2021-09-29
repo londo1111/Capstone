@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector2 mousePos;
     Vector2 movement;
+    public VectorValue startingPosition;
 
     // Update is called once per frame
     void Update()
@@ -35,6 +36,11 @@ public class PlayerMovement : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angle;
+    }
+
+    private void Start()
+    {
+        transform.position = startingPosition.initialValue;
     }
 }
 
