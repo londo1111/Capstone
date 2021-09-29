@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Transition.unity
+  - enabled: 0
+    path: Assets/Scenes/Dont Touch/Transition.unity
     guid: c1a89e92d67b6434c9117597b2e0327d
-  - enabled: 1
-    path: Assets/Scenes/TestScene.unity
+  - enabled: 0
+    path: Assets/Scenes/Dont Touch/TestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Sample_Scene.unity
+    guid: 2efaf45f185a42a4c893a3f6a72f8e37
   m_configObjects: {}
