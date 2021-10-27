@@ -1,0 +1,146 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53556
+Successfully changed project path to: C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies
+C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001930 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002243 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\BQ.4P\Documents\GitHub\Capstone\TerrainTest_Nies\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\BQ.4P\Documents\GitHub\Capstone\TerrainTest_Nies\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.3 MB.
+System memory in use after: 110.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3137.
+Total: 2.305100 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.145900 ms MarkObjects: 1.837100 ms  DeleteObjects: 0.111200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/AeonicTexturePack/Atex_Rock4.jpg
+  artifactKey: Guid(004b783a095f74e7196db2e1a3a6c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock4.jpg using Guid(004b783a095f74e7196db2e1a3a6c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a4ce0651b24e651b00f1d7ca941ba4') in 0.100433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AeonicTexturePack/Atex_Gravel2.jpg
+  artifactKey: Guid(3a7915e2b99cd4d5a9f01b075f2ad6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Gravel2.jpg using Guid(3a7915e2b99cd4d5a9f01b075f2ad6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1666568b00f2c26e57334bb61bde0c1') in 0.011526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AeonicTexturePack/Atex_Grass3.jpg
+  artifactKey: Guid(858e483d613d848cb935156b41553e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Grass3.jpg using Guid(858e483d613d848cb935156b41553e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d65f129d40f307fa52c808afaf5037') in 0.015209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock7.jpg
+  artifactKey: Guid(9a6ded686d7f04102a5f89445a4c69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock7.jpg using Guid(9a6ded686d7f04102a5f89445a4c69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ef6dd8da47aef26211e9f364474904') in 0.012990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AeonicTexturePack/Atex_Dirt2.jpg
+  artifactKey: Guid(89d7186bb29164a87905f17c084e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Dirt2.jpg using Guid(89d7186bb29164a87905f17c084e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad41561b6f396f91a7f87ad441e55ca') in 0.011560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.403505 seconds.
+  path: Assets/Terrain Assets/Bushes/Bush1.fbx
+  artifactKey: Guid(5ca99170bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Bushes/Bush1.fbx using Guid(5ca99170bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35eac8005d2851fd6bcd0f3e6706ebb') in 0.308968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.835485 seconds.
+  path: Assets/Terrain Assets/Trees Ambient-Occlusion/Sycamore.fbx
+  artifactKey: Guid(0f362a31bd1113061100b7a844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Trees Ambient-Occlusion/Sycamore.fbx using Guid(0f362a31bd1113061100b7a844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d2ca12682f36a44e0ec68c62c9cc5f') in 0.044120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.959196 seconds.
+  path: Assets/Terrain Assets/Trees Ambient-Occlusion/Willow.fbx
+  artifactKey: Guid(2a44e858bd119bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Trees Ambient-Occlusion/Willow.fbx using Guid(2a44e858bd119bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268f4c6663184e3da39068dbaaa47731') in 0.012951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.526673 seconds.
+  path: Assets/Terrain Assets/Trees Ambient-Occlusion/JapaneseMaple.fbx
+  artifactKey: Guid(8c7d35afbd119bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Trees Ambient-Occlusion/JapaneseMaple.fbx using Guid(8c7d35afbd119bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd971b2217df4efd2b5f8bc9685018c9') in 0.009948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.791581 seconds.
+  path: Assets/Terrain Assets/Trees Ambient-Occlusion/Mimosa.fbx
+  artifactKey: Guid(7b9282fc41cfa4caf9b150bd407f856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Trees Ambient-Occlusion/Mimosa.fbx using Guid(7b9282fc41cfa4caf9b150bd407f856e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486759e58604dbc5bb323ad1f82cb817') in 0.010496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.448207 seconds.
+  path: Assets/Terrain Assets/Bushes/Bush4.fbx
+  artifactKey: Guid(ce49fdf7bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Bushes/Bush4.fbx using Guid(ce49fdf7bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8761b16b081ee4148cf2755470acf13') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 239.929626 seconds.
+  path: Assets/Grass2.terrainlayer
+  artifactKey: Guid(845df74ba1537784ea5f0e9cdde9d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass2.terrainlayer using Guid(845df74ba1537784ea5f0e9cdde9d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b07473c3ec97a82d2a21b92f054da0') in 0.019281 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
