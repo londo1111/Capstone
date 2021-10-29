@@ -15,7 +15,7 @@ TagManager:
   - Foreground
   - Player
   - Hazards
-  - 
+  - Shopkeeper
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Hazards
     uniqueID: 3635363537
+    locked: 0
+  - name: Shopkeeper
+    uniqueID: 649125483
     locked: 0
   - name: Player
     uniqueID: 1135803801

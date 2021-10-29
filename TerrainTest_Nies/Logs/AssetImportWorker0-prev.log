@@ -1,0 +1,332 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57057
+Successfully changed project path to: C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies
+C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/BQ.4P/Documents/GitHub/Capstone/TerrainTest_Nies/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001746 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002217 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\BQ.4P\Documents\GitHub\Capstone\TerrainTest_Nies\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\BQ.4P\Documents\GitHub\Capstone\TerrainTest_Nies\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3119.
+Total: 2.278600 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.198600 ms MarkObjects: 1.668000 ms  DeleteObjects: 0.066400 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.ide.visualstudio/Editor/Plugins
+  artifactKey: Guid(1e5abb64fdd0542b38f4dc1b60343e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor/Plugins using Guid(1e5abb64fdd0542b38f4dc1b60343e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c8ac4b057686cfc46c656e728886f5') in 0.003898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.932623 seconds.
+  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core
+  artifactKey: Guid(260e630c5c1b1af42991291f6de23ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Core using Guid(260e630c5c1b1af42991291f6de23ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf69d52cbd181b33d84d6e7854fd556') in 0.001896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.687269 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/ProjectGeneration
+  artifactKey: Guid(c779d3735d950f341ba35154e8b3234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/Editor/ProjectGeneration using Guid(c779d3735d950f341ba35154e8b3234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353b4c12077709bbb16db647ee46b5bd') in 0.001957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 439.058182 seconds.
+  path: Assets/Terrain Assets/Trees Ambient-Occlusion
+  artifactKey: Guid(811258bccd110f12a000e6888f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Trees Ambient-Occlusion using Guid(811258bccd110f12a000e6888f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e443116f63c575e7f0b9e5e84264447c') in 0.002068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.945705 seconds.
+  path: Assets/AeonicTexturePack/Atex_Concrete2.jpg
+  artifactKey: Guid(e929429c678284df58e561543d07f2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Concrete2.jpg using Guid(e929429c678284df58e561543d07f2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fd96252374bd3bd65d9b866736b462') in 0.088300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2765.219084 seconds.
+  path: Assets/Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBark.PSD
+  artifactKey: Guid(061b881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBark.PSD using Guid(061b881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab94adb9f4921430c0937e273d1f32b') in 0.013506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AeonicTexturePack/Atex_Dirt1.jpg
+  artifactKey: Guid(69930cb68b9e44a93877a4fd343b0e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Dirt1.jpg using Guid(69930cb68b9e44a93877a4fd343b0e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3761775f1f0b71760684afa050f4cb11') in 0.010017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBranches.psd
+  artifactKey: Guid(d72b881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBranches.psd using Guid(d72b881dbd110e38a00062d88f962b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b452c36cc68252def8faca745c5b6f8') in 0.008798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AeonicTexturePack/Atex_Concrete3.jpg
+  artifactKey: Guid(81ebc9ca3842d41c68df620c1810d4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Concrete3.jpg using Guid(81ebc9ca3842d41c68df620c1810d4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8da5ab04608c69b145fdf8aafdb255') in 0.008618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/AeonicTexturePack/Atex_Dirt2.jpg
+  artifactKey: Guid(89d7186bb29164a87905f17c084e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Dirt2.jpg using Guid(89d7186bb29164a87905f17c084e4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b873893cfc1c6da270e9bcf9eb2c44') in 0.007174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AeonicTexturePack/Atex_Concrete4.jpg
+  artifactKey: Guid(c54bf2390a18e47c19ab793626fbfb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Concrete4.jpg using Guid(c54bf2390a18e47c19ab793626fbfb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833799d101528722f31f938397be23ac') in 0.007483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/AeonicTexturePack/Atex_Concrete1.jpg
+  artifactKey: Guid(ca52ada7f5f7142d1bca2409ea3dfce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Concrete1.jpg using Guid(ca52ada7f5f7142d1bca2409ea3dfce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af26972f77df39cfae0d9c924a0088a') in 0.009083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.476275 seconds.
+  path: Assets/AeonicTexturePack/Atex_Dirt3.jpg
+  artifactKey: Guid(bdbc0c13ea3694c3d85b040e23b65747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Dirt3.jpg using Guid(bdbc0c13ea3694c3d85b040e23b65747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83d378264e68163a6d6dffbf5888caa') in 0.005956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AeonicTexturePack/Atex_Dirt4.jpg
+  artifactKey: Guid(60724ca4e99f54f7a9c399ee0739c087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Dirt4.jpg using Guid(60724ca4e99f54f7a9c399ee0739c087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7a8f48ba949a96d5a050db4b13835f') in 0.008091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.170278 seconds.
+  path: Assets/AeonicTexturePack/Atex_Field1.jpg
+  artifactKey: Guid(e4cc6b89f7fe0415b99809d203397c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Field1.jpg using Guid(e4cc6b89f7fe0415b99809d203397c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8c0a32d3b3c44ac8bb8c9d7454ce7f') in 0.006786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/AeonicTexturePack/Atex_Field2.jpg
+  artifactKey: Guid(2b179ae8454c94d6f835a6681532d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Field2.jpg using Guid(2b179ae8454c94d6f835a6681532d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d77022381a976d3d8cf0dd8cabace') in 0.007070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.159957 seconds.
+  path: Assets/AeonicTexturePack/Atex_Grass1.jpg
+  artifactKey: Guid(dd49ed99f55924d13bacefd240626bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Grass1.jpg using Guid(dd49ed99f55924d13bacefd240626bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bacda168231b450faa1e0a5f18fa68') in 0.008053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/AeonicTexturePack/Atex_Grass2.jpg
+  artifactKey: Guid(9c80b7e7d27b645a2bcb818c875ac606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Grass2.jpg using Guid(9c80b7e7d27b645a2bcb818c875ac606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3fdc564649520363cfa9991f693f18') in 0.006748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.072499 seconds.
+  path: Assets/AeonicTexturePack/Atex_Grass3.jpg
+  artifactKey: Guid(858e483d613d848cb935156b41553e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Grass3.jpg using Guid(858e483d613d848cb935156b41553e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9224438edaaf68a83f1e6c46220f60') in 0.007000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AeonicTexturePack/Atex_Gravel1.jpg
+  artifactKey: Guid(18d06890de62d443ea645cc5adec617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Gravel1.jpg using Guid(18d06890de62d443ea645cc5adec617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e31828c7299e826be4968903a5627c1') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.664794 seconds.
+  path: Assets/AeonicTexturePack/Atex_Gravel2.jpg
+  artifactKey: Guid(3a7915e2b99cd4d5a9f01b075f2ad6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Gravel2.jpg using Guid(3a7915e2b99cd4d5a9f01b075f2ad6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7612067600f3a16ed1b50b76a50067') in 0.010413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AeonicTexturePack/Atex_Gravel3.jpg
+  artifactKey: Guid(c1a90a563817e4539a29463418e6dd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Gravel3.jpg using Guid(c1a90a563817e4539a29463418e6dd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121ddc38c59479adf29c53dbcda31bf1') in 0.008072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.466550 seconds.
+  path: Assets/AeonicTexturePack/Atex_Pavement1.jpg
+  artifactKey: Guid(6502a747374bb4cc088caf866786689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Pavement1.jpg using Guid(6502a747374bb4cc088caf866786689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af33325c7e639dab8041cffdd9c3f21') in 0.009618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock1.jpg
+  artifactKey: Guid(5ab22b13873ff4767bf281a8c183615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock1.jpg using Guid(5ab22b13873ff4767bf281a8c183615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403a18778dc94f473498ac0307916605') in 0.006517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036678 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock2.jpg
+  artifactKey: Guid(c12fba8bcc2ef4b959d67f60ca59d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock2.jpg using Guid(c12fba8bcc2ef4b959d67f60ca59d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ebbca7a927ca46a95114115f0107b0') in 0.006426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock3.jpg
+  artifactKey: Guid(6f7916404ed2e49fda737e69e8f3bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock3.jpg using Guid(6f7916404ed2e49fda737e69e8f3bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aab445e4c6541e01fb4c64e6621f3e') in 0.007078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029483 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock4.jpg
+  artifactKey: Guid(004b783a095f74e7196db2e1a3a6c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock4.jpg using Guid(004b783a095f74e7196db2e1a3a6c2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd7fa73e4d60e02022ed661968a4b84') in 0.005779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock5.jpg
+  artifactKey: Guid(c00f3419c38644a01aa6fa97d49213a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock5.jpg using Guid(c00f3419c38644a01aa6fa97d49213a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebaf75da50ca88e54253e7ae18afbb0') in 0.008308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019156 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock6.jpg
+  artifactKey: Guid(1054f1fd930eb44b4963a1aa523cc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock6.jpg using Guid(1054f1fd930eb44b4963a1aa523cc5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af0109e52eca8090c5f22a603c60e11') in 0.006171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock7.jpg
+  artifactKey: Guid(9a6ded686d7f04102a5f89445a4c69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock7.jpg using Guid(9a6ded686d7f04102a5f89445a4c69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d59db5c743c78d82d889a1743a63fb') in 0.006043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.823910 seconds.
+  path: Assets/Terrain Assets
+  artifactKey: Guid(1e196313698304343b41512425dcfc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets using Guid(1e196313698304343b41512425dcfc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a1d250169307092cc485c0929ebca6') in 0.001845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.600363 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(84ccbb12fe24f7243b079cf4650c846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(84ccbb12fe24f7243b079cf4650c846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576470e1f6883fd9900d7da6344d9c58') in 0.008509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.728318 seconds.
+  path: Assets/Mountain side.terrainlayer
+  artifactKey: Guid(15093aa6a9100de4689c5cdb446bf70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain side.terrainlayer using Guid(15093aa6a9100de4689c5cdb446bf70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda6cfa40b3748b8dbe4d5b74768e9fa') in 0.031078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.122303 seconds.
+  path: Assets/Ground.terrainlayer
+  artifactKey: Guid(067a84c3639450140943c8669400ba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground.terrainlayer using Guid(067a84c3639450140943c8669400ba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614530c4b141b81500516a094e6c5c42') in 0.006937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 979.692031 seconds.
+  path: Assets/Grass.terrainlayer
+  artifactKey: Guid(26831367b0fe1b841a433c60fc47c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass.terrainlayer using Guid(26831367b0fe1b841a433c60fc47c733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fab48b2740777ef87502fd974db03b') in 0.007665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.699024 seconds.
+  path: Assets/Grass2.terrainlayer
+  artifactKey: Guid(845df74ba1537784ea5f0e9cdde9d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass2.terrainlayer using Guid(845df74ba1537784ea5f0e9cdde9d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bbaf664ed8eaa590ab1046f9691a22') in 0.007389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.053730 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock8.jpg
+  artifactKey: Guid(a8704af5f941549e5a408a2904eb31fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock8.jpg using Guid(a8704af5f941549e5a408a2904eb31fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb76ea20c0dce1e20a6e1d7c1523e5f7') in 0.008879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock9.jpg
+  artifactKey: Guid(79d5431cd68194d08a40d2bbe4ebcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock9.jpg using Guid(79d5431cd68194d08a40d2bbe4ebcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4b614c9cd86e014c9e5ea7b7fa41e5') in 0.006530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.679580 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock10.jpg
+  artifactKey: Guid(27f896e8cb56a467885c23b4ab985df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock10.jpg using Guid(27f896e8cb56a467885c23b4ab985df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65247125eba17654555b11659de081c9') in 0.007602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock11.jpg
+  artifactKey: Guid(cd4d7bff7ee114691bf660e55a92f965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock11.jpg using Guid(cd4d7bff7ee114691bf660e55a92f965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fe262dfaeb8cd83d89855c791bd823') in 0.006362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.471388 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock12.jpg
+  artifactKey: Guid(cf232666bd1f04c1a8a5a7f71eb60617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock12.jpg using Guid(cf232666bd1f04c1a8a5a7f71eb60617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69a6b352da25f44bcac289782855db2') in 0.012010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/AeonicTexturePack/Atex_Rock13.jpg
+  artifactKey: Guid(e2178dc607c6a40acaf16e334f21d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AeonicTexturePack/Atex_Rock13.jpg using Guid(e2178dc607c6a40acaf16e334f21d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d217706e5af21d2a89975fb5b68257a') in 0.007380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.886726 seconds.
+  path: Assets/Mountain side2.terrainlayer
+  artifactKey: Guid(de618208656bd7c428bc1d90761dfea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain side2.terrainlayer using Guid(de618208656bd7c428bc1d90761dfea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0378cc424f3a06f5889df93e7defd4b5') in 0.007247 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
