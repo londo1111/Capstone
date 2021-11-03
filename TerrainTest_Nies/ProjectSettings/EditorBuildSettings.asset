@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TerrainTest_Nies.unity
+    guid: 5c5651a6635d05f45b3a36fe7fcaa02a
   m_configObjects: {}
