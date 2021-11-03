@@ -1,0 +1,110 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63257
+Successfully changed project path to: C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2
+C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 108.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002047 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003348 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bn.4l\Documents\GitHub\PlayerMovementAndShooting\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bn.4l\Documents\GitHub\PlayerMovementAndShooting\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4032.
+Total: 2.753300 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.230000 ms MarkObjects: 2.195200 ms  DeleteObjects: 0.057500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TIles/Decor/Clouds(Scene4)/lightningcloud2.asset
+  artifactKey: Guid(a3d8ea3bf19b3054f8ded3524114bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Clouds(Scene4)/lightningcloud2.asset using Guid(a3d8ea3bf19b3054f8ded3524114bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04599cd7efb0197b7f588247ab863e5') in 0.085799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/TIles/Decor/Clouds(Scene4)/clouds1.asset
+  artifactKey: Guid(3f6db7d57bdf8f64f9c53e84510c4b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Clouds(Scene4)/clouds1.asset using Guid(3f6db7d57bdf8f64f9c53e84510c4b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ac79a31fe37340c84491653ef192a') in 0.006146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/TIles/Decor/Clouds(Scene4)/Fog.asset
+  artifactKey: Guid(5415c8e1b916d9a48a6ba8d2eb1fe68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Clouds(Scene4)/Fog.asset using Guid(5415c8e1b916d9a48a6ba8d2eb1fe68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd0190e03fdbf7b4e16e583800dad05') in 0.006239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/TIles/Decor/Clouds(Scene4)/lightningcloud1.asset
+  artifactKey: Guid(1158c986d5d3bda4fa5e73b561d06566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Clouds(Scene4)/lightningcloud1.asset using Guid(1158c986d5d3bda4fa5e73b561d06566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e791026bff442fb9a0a36f29f362dd7') in 0.004870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/TIles/Decor/Clouds(Scene4)/darkclouds1.asset
+  artifactKey: Guid(16cbf8f0c861e0348a262c6732838ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Clouds(Scene4)/darkclouds1.asset using Guid(16cbf8f0c861e0348a262c6732838ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0e7ffaa297122034fb5db7273b072b') in 0.005014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/TIles/Decor/Clouds(Scene4)/darkclouds2.asset
+  artifactKey: Guid(dd20240e7c0b69c4ca8400dcb5575db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Clouds(Scene4)/darkclouds2.asset using Guid(dd20240e7c0b69c4ca8400dcb5575db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f2ddc460faff219ffdaa8875928047') in 0.005124 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
