@@ -11,19 +11,19 @@ C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2
+C:/Users/gk.jk/Documents/Github/Capstone/Test 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63257
-Successfully changed project path to: C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2
-C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2
+55762
+Successfully changed project path to: C:/Users/gk.jk/Documents/Github/Capstone/Test 2
+C:/Users/gk.jk/Documents/Github/Capstone/Test 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 108.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/bn.4l/Documents/GitHub/PlayerMovementAndShooting/Test 2/Assets
+[Subsystems] Discovering subsystems at path C:/Users/gk.jk/Documents/Github/Capstone/Test 2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,76 +35,142 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002047 seconds.
+Registered in 0.002039 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
+- Completed reload, in  1.272 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003348 seconds.
+Registered in 0.003174 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\bn.4l\Documents\GitHub\PlayerMovementAndShooting\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\bn.4l\Documents\GitHub\PlayerMovementAndShooting\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gk.jk\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gk.jk\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.209 seconds
+- Completed reload, in  1.056 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 135.4 MB.
 System memory in use after: 135.6 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4032.
-Total: 2.753300 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.230000 ms MarkObjects: 2.195200 ms  DeleteObjects: 0.057500 ms)
+Total: 2.188100 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.177000 ms MarkObjects: 1.709100 ms  DeleteObjects: 0.051400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/TIles/Decor/Clouds(Scene4)/lightningcloud2.asset
-  artifactKey: Guid(a3d8ea3bf19b3054f8ded3524114bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Clouds(Scene4)/lightningcloud2.asset using Guid(a3d8ea3bf19b3054f8ded3524114bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04599cd7efb0197b7f588247ab863e5') in 0.085799 seconds 
+  path: Assets/ShopNPC.cs
+  artifactKey: Guid(5015a56c158af194581614df47b00440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShopNPC.cs using Guid(5015a56c158af194581614df47b00440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f4215f951fa4f4f3c02f22f6f3017a') in 0.023302 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/TIles/Decor/Clouds(Scene4)/clouds1.asset
-  artifactKey: Guid(3f6db7d57bdf8f64f9c53e84510c4b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Clouds(Scene4)/clouds1.asset using Guid(3f6db7d57bdf8f64f9c53e84510c4b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ac79a31fe37340c84491653ef192a') in 0.006146 seconds 
+  Time since last request: 0.000266 seconds.
+  path: Assets/script.cs
+  artifactKey: Guid(8f0233b1af004744d9f6ef258b32c87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script.cs using Guid(8f0233b1af004744d9f6ef258b32c87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8857efcfb802ae3c62049fd98db1add1') in 0.002011 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/TIles/Decor/Clouds(Scene4)/Fog.asset
-  artifactKey: Guid(5415c8e1b916d9a48a6ba8d2eb1fe68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Clouds(Scene4)/Fog.asset using Guid(5415c8e1b916d9a48a6ba8d2eb1fe68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd0190e03fdbf7b4e16e583800dad05') in 0.006239 seconds 
+  Time since last request: 42.131262 seconds.
+  path: Assets/TIles/Space
+  artifactKey: Guid(82ab3e3a475588a4aae17b425bcdbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Space using Guid(82ab3e3a475588a4aae17b425bcdbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb3a35f22f4a09a39ecb60044c49ced') in 0.002352 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/TIles/Decor/Clouds(Scene4)/lightningcloud1.asset
-  artifactKey: Guid(1158c986d5d3bda4fa5e73b561d06566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Clouds(Scene4)/lightningcloud1.asset using Guid(1158c986d5d3bda4fa5e73b561d06566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e791026bff442fb9a0a36f29f362dd7') in 0.004870 seconds 
+  Time since last request: 10.189488 seconds.
+  path: Assets/TIles/Tile Pallets
+  artifactKey: Guid(f2cff05144534884dbd78245c44183fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Tile Pallets using Guid(f2cff05144534884dbd78245c44183fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171817030749e343fb58fd46f39bc2a6') in 0.001614 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/TIles/Decor/Clouds(Scene4)/darkclouds1.asset
-  artifactKey: Guid(16cbf8f0c861e0348a262c6732838ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Clouds(Scene4)/darkclouds1.asset using Guid(16cbf8f0c861e0348a262c6732838ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0e7ffaa297122034fb5db7273b072b') in 0.005014 seconds 
+  Time since last request: 42.117688 seconds.
+  path: Assets/TIles/Decor/vase (1).asset
+  artifactKey: Guid(8602197a99da77b4f8c3c88b351001cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/vase (1).asset using Guid(8602197a99da77b4f8c3c88b351001cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fb42d4efdb19bdb1f178a2a253cb7c') in 0.058350 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/TIles/Decor/Clouds(Scene4)/darkclouds2.asset
-  artifactKey: Guid(dd20240e7c0b69c4ca8400dcb5575db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Clouds(Scene4)/darkclouds2.asset using Guid(dd20240e7c0b69c4ca8400dcb5575db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f2ddc460faff219ffdaa8875928047') in 0.005124 seconds 
+  Time since last request: 33.656619 seconds.
+  path: Assets/TIles/Decor/furnace.asset
+  artifactKey: Guid(921e554cf6184b746af960690684940c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/furnace.asset using Guid(921e554cf6184b746af960690684940c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9599cfcb953e63c61f0ae9d9a3cc7fda') in 0.006158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.189105 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.623510 seconds.
+  path: Assets/ShopNPC.cs
+  artifactKey: Guid(5015a56c158af194581614df47b00440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShopNPC.cs using Guid(5015a56c158af194581614df47b00440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2249914a4c6f6b459429a2b73ae70f86') in 0.001435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.877819 seconds.
+  path: Assets/Scripts/System
+  artifactKey: Guid(5ed68e7dc15e08444b90739c93486194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System using Guid(5ed68e7dc15e08444b90739c93486194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e1ea421d11f5f624abd54bda11f694') in 0.001772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.440733 seconds.
+  path: Assets/Scripts/PlayerScripts/VectorValue.cs
+  artifactKey: Guid(53e5736a2e670b24097fb32d061c117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/VectorValue.cs using Guid(53e5736a2e670b24097fb32d061c117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee5f7fb6fee1d7938487e897f68283f') in 0.001705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.480617 seconds.
+  path: Assets/TIles/Decor/SmallObjects
+  artifactKey: Guid(4534b7320bf740a47a6aca835af065ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/SmallObjects using Guid(4534b7320bf740a47a6aca835af065ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85068227d84e914e946d467355949ffc') in 0.001684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.226746 seconds.
+  path: Assets/TIles/Decor/Statues/HumanStatues/bust_0.asset
+  artifactKey: Guid(dcc2b675db0092547a78e60e70b6e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/HumanStatues/bust_0.asset using Guid(dcc2b675db0092547a78e60e70b6e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8239b0153b356e979c63bc128556d87a') in 0.006215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.607584 seconds.
+  path: Assets/TIles/Decor/Statues/HumanStatues/bust_1.asset
+  artifactKey: Guid(5f7905c9148d3954aa35c541ca4d5a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/HumanStatues/bust_1.asset using Guid(5f7905c9148d3954aa35c541ca4d5a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8337dedc17ee0c5d2b7be8c33489cb8a') in 0.004908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.615349 seconds.
+  path: Assets/TIles/Decor/Statues/HumanStatues/angel_3.asset
+  artifactKey: Guid(f9b82dbb79c158b48be1ce39825a84de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/HumanStatues/angel_3.asset using Guid(f9b82dbb79c158b48be1ce39825a84de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a701249cc996554b638a76004aa64300') in 0.005839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.450338 seconds.
+  path: Assets/TIles/Decor/Statues/HumanStatues/angel_2.asset
+  artifactKey: Guid(d1cc9c8342eb1cd408d801b004b2e75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/HumanStatues/angel_2.asset using Guid(d1cc9c8342eb1cd408d801b004b2e75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bd5c75862b05f75047dccfb3cc6846') in 0.004331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.460753 seconds.
+  path: Assets/TIles/Decor/Statues/HumanStatues/angel_1.asset
+  artifactKey: Guid(dbfc738dff2daaf459b7fed0c1ac494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/HumanStatues/angel_1.asset using Guid(dbfc738dff2daaf459b7fed0c1ac494f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1e94e4bf5dc911e1042e8c17f95466') in 0.004748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.529396 seconds.
+  path: Assets/TIles/Textures/ShopKeeper (1).png
+  artifactKey: Guid(8c59f48d6bc718240824583bbd4bb25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Textures/ShopKeeper (1).png using Guid(8c59f48d6bc718240824583bbd4bb25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465acba31054fce038da2b40524f4582') in 0.043648 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
