@@ -14,6 +14,10 @@ public class ShopNPC : MonoBehaviour
     private bool shopEnabled;
 
 
+    public GameObject item;
+    public int price;
+
+
     public void start()
     {
         Button btn = button.GetComponent<Button>();
@@ -38,7 +42,25 @@ public class ShopNPC : MonoBehaviour
     {
         if (shopEnabled)
         {
-            print("Hello");
+            Sell();
+        }
+    }
+
+
+    public void Sell()
+    {
+        if(player.GetComponent<>().money >= price)
+        {
+
+            Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
+            itemSpawned.gameObject.SetActive(false);
+            itemSpawned.parent = player.transform;
+            player.GetComponent<>().money -= price;
+
+        }
+        else
+        {
+            print("Sorry you seem to not have enough money to buy this... maybe try asking MrBeast for some money");
         }
     }
 

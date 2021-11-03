@@ -1,7 +1,7 @@
 
 using UnityEngine;
 using System.IO;
-using System.Runtime.Serializable.Formatters.Binary;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem {
 
@@ -24,6 +24,12 @@ public static class SaveSystem {
       {
           BinaryFormatter formatter = new BinaryFormatter();
           FileStream stream = new FileStream(path, FileMode.Open);
+
+          PlayerData data = formatter.Deserialize(stream) as PlayerData;
+          stream.Close();
+
+          return data;
+          
       } else
       {
         Debug.LogError("Save file not found in " + path);
