@@ -46,15 +46,16 @@ public class ShopNPC : MonoBehaviour
         }
     }
 
+
     public void Sell()
     {
         if(player.GetComponent<>().money >= price)
         {
 
-            Transform itemSpawned = Instantiate(item.transform, player.tranform.position, Quaternion.identity);
+            Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
             itemSpawned.gameObject.SetActive(false);
             itemSpawned.parent = player.transform;
-            player.GetComponenet<>().money -= price;
+            player.GetComponent<>().money -= price;
 
         }
         else
