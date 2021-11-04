@@ -15,11 +15,11 @@ C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59671
+58896
 Successfully changed project path to: C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
 C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 98.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,166 +35,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002068 seconds.
+Registered in 0.002056 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  1.273 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003399 seconds.
+Registered in 0.003206 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\H5.BX\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\H5.BX\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
+- Completed reload, in  1.929 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 135.4 MB.
 System memory in use after: 135.6 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4032.
-Total: 2.157500 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.193600 ms MarkObjects: 1.655200 ms  DeleteObjects: 0.052100 ms)
+Total: 2.281000 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.195400 ms MarkObjects: 1.764700 ms  DeleteObjects: 0.053700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (3).png
-  artifactKey: Guid(c3c539c02a1186e4b816bace2a98c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (3).png using Guid(c3c539c02a1186e4b816bace2a98c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bddb1519599cbfcaa28a9a66a6d552') in 0.117197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.360230 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (3).png
-  artifactKey: Guid(c3c539c02a1186e4b816bace2a98c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (3).png using Guid(c3c539c02a1186e4b816bace2a98c11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eecc9471426b9cb28efe215e2425183') in 0.006436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.181236 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel.png
-  artifactKey: Guid(ccb5da305fc47f3478b956ccf9f07482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel.png using Guid(ccb5da305fc47f3478b956ccf9f07482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73af7871e6c6b9b1d3283dccccd2ca6') in 0.006541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.635904 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel.png
-  artifactKey: Guid(ccb5da305fc47f3478b956ccf9f07482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel.png using Guid(ccb5da305fc47f3478b956ccf9f07482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945316cec169c4a2238432809a3d43a1') in 0.006238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 172.188526 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (5).asset
-  artifactKey: Guid(c1618ebc05f44ce46aba2d9760fd9762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (5).asset using Guid(c1618ebc05f44ce46aba2d9760fd9762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e673df0d18cfa15d7750ba59a95dd6') in 0.014490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.845369 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (5).png
-  artifactKey: Guid(c8a9ee2189f948e409a62bcee834ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (5).png using Guid(c8a9ee2189f948e409a62bcee834ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff100e51385a93d82b6d59fea1ee975') in 0.007252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.812400 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (5).png
-  artifactKey: Guid(c8a9ee2189f948e409a62bcee834ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (5).png using Guid(c8a9ee2189f948e409a62bcee834ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e952dc5cebe1583f2661bb75083a3c9') in 0.006300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.496550 seconds.
-  path: Assets/Tiles/MuesumTiles/Abyss(Background).asset
-  artifactKey: Guid(6a248b647c3520748922ba09cccbe112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/Abyss(Background).asset using Guid(6a248b647c3520748922ba09cccbe112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bca8646798f92a24edabf126b0c86d') in 0.005826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.003180 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (4).png
-  artifactKey: Guid(eb0f1e3fe0243f34a92a55221e33986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (4).png using Guid(eb0f1e3fe0243f34a92a55221e33986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5abe420fb6e5cbaf0b651281221e3e') in 0.006393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.256924 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (4).png
-  artifactKey: Guid(eb0f1e3fe0243f34a92a55221e33986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (4).png using Guid(eb0f1e3fe0243f34a92a55221e33986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a4fe712243ceec8703a0fa06f5b628') in 0.005947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.353844 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (6).png
-  artifactKey: Guid(875d8f7d3e72a9542a481c765f59842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (6).png using Guid(875d8f7d3e72a9542a481c765f59842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f94ebeaccc84e634a8e620aea88b771') in 0.007982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.169228 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (6).png
-  artifactKey: Guid(875d8f7d3e72a9542a481c765f59842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (6).png using Guid(875d8f7d3e72a9542a481c765f59842d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e50e5a960f4e997feb013978879eeb') in 0.006128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.955994 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (7).png
-  artifactKey: Guid(2fd86321b3263514d8240e6f20dc68a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (7).png using Guid(2fd86321b3263514d8240e6f20dc68a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96337b8670d96abb4288e22b945bbcf3') in 0.007320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.755310 seconds.
-  path: Assets/Tiles/MuesumTiles/New Piskel-1.png (7).png
-  artifactKey: Guid(2fd86321b3263514d8240e6f20dc68a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/New Piskel-1.png (7).png using Guid(2fd86321b3263514d8240e6f20dc68a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8aa3447ab66db495c123d910329b2d') in 0.006164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 194.083740 seconds.
-  path: Assets/Tiles/MuesumTiles/AbyssPath.asset
-  artifactKey: Guid(603dc7d05f7638448a0e28ea0cf8b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/AbyssPath.asset using Guid(603dc7d05f7638448a0e28ea0cf8b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080a4f16ca2e63582fa4019e80c26e06') in 0.006633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.986661 seconds.
-  path: Assets/Tiles/MuesumTiles/AbyssPath-1.png.png
-  artifactKey: Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/AbyssPath-1.png.png using Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394610f9bd1f0785b69f74712dbc33b7') in 0.009741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.524141 seconds.
-  path: Assets/Tiles/MuesumTiles/AbyssPath-1.png.png
-  artifactKey: Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/AbyssPath-1.png.png using Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed02c45cc3813d79380ddb03fec9f108') in 0.034669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.838573 seconds.
-  path: Assets/Tiles/MuesumTiles/Abyss-1.png.png
-  artifactKey: Guid(6d749c9dbd8dd3641b2af6ed53a9358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/Abyss-1.png.png using Guid(6d749c9dbd8dd3641b2af6ed53a9358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad958c410a8febaca35d9465995e9a8') in 0.007938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.447762 seconds.
-  path: Assets/Tiles/MuesumTiles/AbyssPath-1.png.png
-  artifactKey: Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/AbyssPath-1.png.png using Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461724691b6330e964c894e8d5ebabfb') in 0.016405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.474017 seconds.
-  path: Assets/Tiles/MuesumTiles/AbyssPath-1.png.png
-  artifactKey: Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/AbyssPath-1.png.png using Guid(ac4a18e3662f98d459363342f4621fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016cec911fed017736dd40bf4b1a6345') in 0.014490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.724301 seconds.
-  path: Assets/Tiles/MuesumTiles/Abyss-1.png.png
-  artifactKey: Guid(6d749c9dbd8dd3641b2af6ed53a9358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/Abyss-1.png.png using Guid(6d749c9dbd8dd3641b2af6ed53a9358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38af2471c787ca3a3e63ba8b332ae9fa') in 0.015049 seconds 
+  path: Assets/Tiles/MuesumTiles/Abyss.asset
+  artifactKey: Guid(8e68f6a775ced7947a3347a064dd27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/MuesumTiles/Abyss.asset using Guid(8e68f6a775ced7947a3347a064dd27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaecff9c37e457bb2aabbe8cb4b5251') in 0.132766 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
