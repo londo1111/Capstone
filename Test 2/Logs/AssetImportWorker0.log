@@ -15,11 +15,11 @@ C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58896
+53637
 Successfully changed project path to: C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
 C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 95.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,34 +35,34 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002056 seconds.
+Registered in 0.002104 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.273 seconds
+- Completed reload, in  1.314 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003206 seconds.
+Registered in 0.003229 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\H5.BX\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\H5.BX\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.929 seconds
+- Completed reload, in  1.053 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
@@ -70,11 +70,77 @@ System memory in use before: 135.4 MB.
 System memory in use after: 135.6 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4032.
-Total: 2.281000 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.195400 ms MarkObjects: 1.764700 ms  DeleteObjects: 0.053700 ms)
+Total: 2.159200 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.163400 ms MarkObjects: 1.698300 ms  DeleteObjects: 0.051400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiles/MuesumTiles/Abyss.asset
-  artifactKey: Guid(8e68f6a775ced7947a3347a064dd27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/MuesumTiles/Abyss.asset using Guid(8e68f6a775ced7947a3347a064dd27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaecff9c37e457bb2aabbe8cb4b5251') in 0.132766 seconds 
+  path: Assets/RPGW_Caves/MainLev2.0.png
+  artifactKey: Guid(7b978bd92f104204c86a69f46240f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/MainLev2.0.png using Guid(7b978bd92f104204c86a69f46240f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82aaa3e2b03c56715b87a38f50800ef') in 0.109026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.363449 seconds.
+  path: Assets/RPGW_Caves/decorative.png
+  artifactKey: Guid(ae9604bb7c83a7f4cb3ae2abd7a94dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/decorative.png using Guid(ae9604bb7c83a7f4cb3ae2abd7a94dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f712e6ce9cf1b6df45a372ad3544a15') in 0.010642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.195658 seconds.
+  path: Assets/RPGW_Caves/Sliced/decorative.png
+  artifactKey: Guid(ca1f1e20c71399f4ab9c815c2528cc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/Sliced/decorative.png using Guid(ca1f1e20c71399f4ab9c815c2528cc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fd546675a7c99fb3c72c40c77284a0') in 0.167368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.497177 seconds.
+  path: Assets/RPGW_Caves/Sliced
+  artifactKey: Guid(2583ae2598f98424c9e9527afeb3ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/Sliced using Guid(2583ae2598f98424c9e9527afeb3ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a652010fe2eeafdacf206e26d9d07e') in 0.001875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.639140 seconds.
+  path: Assets/RPGW_Caves/Animated
+  artifactKey: Guid(095c72be4fa9b7a42a12b1fd72b4ff23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/Animated using Guid(095c72be4fa9b7a42a12b1fd72b4ff23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b1b2ac8c0f3fb45854d21999958b9d') in 0.001909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601672 seconds.
+  path: Assets/RPGW_Caves/Sliced/MainLev2.0.png
+  artifactKey: Guid(aa9f510a84a336543994cb3b86dea09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/Sliced/MainLev2.0.png using Guid(aa9f510a84a336543994cb3b86dea09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1c8a404f77854248c885e2aa2da353') in 1.716418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.567938 seconds.
+  path: Assets/RPGW_Caves/_oldfiles/RW_GrassLand_entrance.png
+  artifactKey: Guid(71ff5bca61bd7ab46b9b6cd1a641875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/_oldfiles/RW_GrassLand_entrance.png using Guid(71ff5bca61bd7ab46b9b6cd1a641875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e587dd0ff0c134bc8b7b07e87035784d') in 0.010873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.831306 seconds.
+  path: Assets/RPGW_Caves/_oldfiles/RW_MarshLand_entrance.png
+  artifactKey: Guid(59bae081744a4154c8fa3ee5bf8fa16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/_oldfiles/RW_MarshLand_entrance.png using Guid(59bae081744a4154c8fa3ee5bf8fa16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9b72241fff6a4f9e4ee2198ef8794d') in 0.011394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.166757 seconds.
+  path: Assets/RPGW_Caves/_oldfiles/mainlevbuild.png
+  artifactKey: Guid(389be3483ef26ae4886e2b0a97fdaff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/_oldfiles/mainlevbuild.png using Guid(389be3483ef26ae4886e2b0a97fdaff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907d469eedbdbf21746c72b761d5086a') in 0.010903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.549975 seconds.
+  path: Assets/RPGW_Caves/_oldfiles/decorative.png
+  artifactKey: Guid(029030ab7555c8c4e95178103a2328f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_Caves/_oldfiles/decorative.png using Guid(029030ab7555c8c4e95178103a2328f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3600a19fecba34dacf78ccf3d197d221') in 0.009368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.648123 seconds.
+  path: Assets/Inventory1.jpg
+  artifactKey: Guid(4f9f091107d1a70459340fbfff6304a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inventory1.jpg using Guid(4f9f091107d1a70459340fbfff6304a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aec76c18f6b634c9f89ecfde965e7bd') in 0.013115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.728221 seconds.
+  path: Assets/Inventory1.jpg
+  artifactKey: Guid(4f9f091107d1a70459340fbfff6304a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inventory1.jpg using Guid(4f9f091107d1a70459340fbfff6304a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5988096f6de2b8bd1dbc7aa33efbe9c7') in 0.017865 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
