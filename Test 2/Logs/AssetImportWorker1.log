@@ -1,0 +1,109 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/fs.7v/Documents/Github/Capstone/Test 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55555
+Successfully changed project path to: C:/Users/fs.7v/Documents/Github/Capstone/Test 2
+C:/Users/fs.7v/Documents/Github/Capstone/Test 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 95.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fs.7v/Documents/Github/Capstone/Test 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002086 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003326 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\fs.7v\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\fs.7v\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4033.
+Total: 2.305000 ms (FindLiveObjects: 0.254100 ms CreateObjectMapping: 0.181600 ms MarkObjects: 1.814000 ms  DeleteObjects: 0.054600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TIles/Decor/Statues/Structures/column-2.asset
+  artifactKey: Guid(42063da7e612a714e8a9cd78b7091b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/Structures/column-2.asset using Guid(42063da7e612a714e8a9cd78b7091b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb29acf8a917e992d1d52faff1dc0bd6') in 0.097444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/TIles/Decor/Statues/Structures/fountain-large.asset
+  artifactKey: Guid(7032de85f5f84fd469a80bcadfcc0ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/Structures/fountain-large.asset using Guid(7032de85f5f84fd469a80bcadfcc0ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fb88c657cef98efdee691e7f92878f') in 0.013619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/TIles/Decor/Statues
+  artifactKey: Guid(bf352678e98414845b4bf0f249247a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues using Guid(bf352678e98414845b4bf0f249247a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d696ccdb83d29b3bcdeffba8d7f08d6') in 0.005998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TIles/Decor/Statues/Structures/pedestal.asset
+  artifactKey: Guid(69d64779bb6597d46a14d65514f155a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/Structures/pedestal.asset using Guid(69d64779bb6597d46a14d65514f155a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ade38eed5895ba377fb0514a2ecadf') in 0.007322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/TIles/Decor/Statues/Structures/fountain.asset
+  artifactKey: Guid(f2e39a844cca95b48966c2654049a898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/Structures/fountain.asset using Guid(f2e39a844cca95b48966c2654049a898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a22ff59f9afe5b1bfb671733a614458') in 0.006267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2013.235275 seconds.
+  path: Assets/TIles/Decor/Statues/Structures
+  artifactKey: Guid(92dd36d0a9a8ae0448c4c8859762076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Decor/Statues/Structures using Guid(92dd36d0a9a8ae0448c4c8859762076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82db06dc66eddda09d539b269f8250c7') in 0.012268 seconds 
