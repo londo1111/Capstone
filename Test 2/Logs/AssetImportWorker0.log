@@ -1,0 +1,332 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/BQ.4P/Documents/GitHub/Capstone/Test 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61027
+Successfully changed project path to: C:/Users/BQ.4P/Documents/GitHub/Capstone/Test 2
+C:/Users/BQ.4P/Documents/GitHub/Capstone/Test 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/BQ.4P/Documents/GitHub/Capstone/Test 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002010 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003001 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\BQ.4P\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\BQ.4P\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4032.
+Total: 2.415400 ms (FindLiveObjects: 0.317100 ms CreateObjectMapping: 0.234400 ms MarkObjects: 1.808000 ms  DeleteObjects: 0.054800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TIles/Liam
+  artifactKey: Guid(6060c73e8bded6c459ed361b3204b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam using Guid(6060c73e8bded6c459ed361b3204b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c12531848a149d83fe6dadd8a894ac2') in 0.004941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.703625 seconds.
+  path: Assets/TIles/Liam/PathAndObjects.png
+  artifactKey: Guid(6e48a1a8108421944ab16fb27cd9dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/PathAndObjects.png using Guid(6e48a1a8108421944ab16fb27cd9dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e21b4c098f4033c1561a3edfddb063') in 0.099193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.158641 seconds.
+  path: Assets/TIles/Liam/PathAndObjects.png
+  artifactKey: Guid(6e48a1a8108421944ab16fb27cd9dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/PathAndObjects.png using Guid(6e48a1a8108421944ab16fb27cd9dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbacac9a9149b620c0a1cf00a22d02be') in 0.006789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.908567 seconds.
+  path: Assets/TIles/Liam/PathAndObjects.png
+  artifactKey: Guid(6e48a1a8108421944ab16fb27cd9dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/PathAndObjects.png using Guid(6e48a1a8108421944ab16fb27cd9dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4e8f5a5377557394c073892b14e972') in 0.304342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.117530 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f20b97dbe2b051c8913f51e5e46739') in 0.009131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.026616 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695f060ac89569f252a7e0c61eda78fb') in 0.013092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.954123 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eae20a535e4d01298c5e05e43f3816') in 0.012186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.591993 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7696812fe5282de9917943c74b5168e8') in 0.012332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.848121 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fce7c3b468460fc1884fc91bf30b1e0') in 0.013230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.707442 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a31288385abfac9c44e8f95a5ffd2b7') in 0.012631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.154634 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0861a36aaf74ca97ef126a18d62e1554') in 0.012611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.511798 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73daca310fab5280d1367bff674fc2e') in 0.012536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.828696 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084daa006ecf5f418dce9adcc7260b9f') in 0.012589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.914471 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d07f1a424293dc6dc156bcf10f5cf7') in 0.013046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.661122 seconds.
+  path: Assets/TIles/Liam/Stony Wall.png
+  artifactKey: Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Stony Wall.png using Guid(7129ce4d5b17b6c40960d8eb55a3169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0df781c135ba0c9b84605b1050ff3cc') in 0.012900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.329862 seconds.
+  path: Assets/Capstone_Shading_Hint 2.png
+  artifactKey: Guid(c8f9f0065c4b07e4b9c887848dc9f3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Capstone_Shading_Hint 2.png using Guid(c8f9f0065c4b07e4b9c887848dc9f3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c0539e0d55be04f716384d443d353b') in 0.008536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.383803 seconds.
+  path: Assets/TIles/Liam/chest_mimic.png
+  artifactKey: Guid(56567ca206e62664cb95dc5665b87e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/chest_mimic.png using Guid(56567ca206e62664cb95dc5665b87e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e03d754de0d58ca8b297f3c317f261') in 0.008010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.404733 seconds.
+  path: Assets/TIles/Liam/chest_mimic.png
+  artifactKey: Guid(56567ca206e62664cb95dc5665b87e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/chest_mimic.png using Guid(56567ca206e62664cb95dc5665b87e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f7d5bb47099ac61d0f4571040f6544') in 0.005454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.939453 seconds.
+  path: Assets/TIles/Liam/chest_mimic.png
+  artifactKey: Guid(56567ca206e62664cb95dc5665b87e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/chest_mimic.png using Guid(56567ca206e62664cb95dc5665b87e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4869f18f176fd107e8debc50f68d6f56') in 0.027150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 311.888952 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b431b61209804b05453ab24e4a0bbd6') in 0.017114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.075083 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57050a9ab89eb17b02669b6e344baa4b') in 0.006649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.790918 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1e92b8e4c3a44c414b7634da232627') in 0.048527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.134732 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047e3824c5f58466f698d527fddc384d') in 0.066220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.559144 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd7dbbe463b556299594057c454df3c') in 0.065718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.547319 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26862504ba8b788430eedd5d8b16d9c3') in 0.063291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.752111 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdf3beed213a91884cdc264b4226f50') in 0.063877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.486173 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b653848a942654f3320a83c59e2c924') in 0.057497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.012047 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e22f35cdf6c5e78cad0e2b543312c45') in 0.059868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.116047 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae0397693e6f110d04474f87accba9a') in 0.062281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.791010 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8042a1530989bbbe24cdc93b3be0b') in 0.063100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.578656 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ded7c93aa931d76fa593f13293e276') in 0.061816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.385595 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d82fcaff619ba8fdb767ded9398535') in 0.063460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.095997 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66787abcb057c7306e9b918edafec491') in 0.067993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.134852 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9ee7808e392729b438132bba975c77') in 0.069447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.044442 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99b36dbcafb3ecae9d9e7a269201f7b') in 0.065380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.894024 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99de8a5a3e1f47af43fb0f7fe5f359e') in 0.066721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.300599 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4566a8dd5994f4cecb65375de4846b4c') in 0.055496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.118074 seconds.
+  path: Assets/TIles/Liam/set.gif
+  artifactKey: Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/set.gif using Guid(a76404ae876a4f740a25df6422938c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb739adf61789e3e17f86ca01e7bc3ce') in 0.062739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 292.902161 seconds.
+  path: Assets/TIles/Liam/Dungeon D_cora2.png
+  artifactKey: Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Dungeon D_cora2.png using Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a572487bc22003d4b41770c8466e8d') in 0.013018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.675115 seconds.
+  path: Assets/TIles/Liam/Dungeon D_cora2.png
+  artifactKey: Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Dungeon D_cora2.png using Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a57b16cdc76f5446ec4a0482e9c7cf3') in 0.007827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.752941 seconds.
+  path: Assets/TIles/Liam/Dungeon D_cora2.png
+  artifactKey: Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Dungeon D_cora2.png using Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5589911a2520bc49aac945227c8241fc') in 0.049672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.104912 seconds.
+  path: Assets/TIles/Liam/Dungeon D_cora2.png
+  artifactKey: Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Dungeon D_cora2.png using Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dcd890365e707a5835665f17d89e79') in 0.036641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.373938 seconds.
+  path: Assets/TIles/Liam/Dungeon D_cora2.png
+  artifactKey: Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Liam/Dungeon D_cora2.png using Guid(35bba7bc4d1430349b1c4e5588c7792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c044f4e946603b52c6d84ba95daa5387') in 0.044080 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
