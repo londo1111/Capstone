@@ -1,0 +1,134 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/9q.h4/Documents/Github/Capstone/Test 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60278
+Successfully changed project path to: C:/Users/9q.h4/Documents/Github/Capstone/Test 2
+C:/Users/9q.h4/Documents/Github/Capstone/Test 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 99.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/9q.h4/Documents/Github/Capstone/Test 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002045 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003802 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9q.h4\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4036.
+Total: 2.190100 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.194400 ms MarkObjects: 1.694900 ms  DeleteObjects: 0.051900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Level_2.unity
+  artifactKey: Guid(546e23b427b512c4a9bbf492b8884722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_2.unity using Guid(546e23b427b512c4a9bbf492b8884722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0dfe24647de5764010fd096910e2f2') in 0.011677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.705087 seconds.
+  path: Assets/Scenes/Level_9.unity
+  artifactKey: Guid(d64022a6661239f4e9e86dc0e2550a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_9.unity using Guid(d64022a6661239f4e9e86dc0e2550a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df10573692707c69a5543a58ddd9a4b') in 0.002218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1604.869602 seconds.
+  path: Assets/TIles/Forest/forest_tiles_54 1.asset
+  artifactKey: Guid(b3871ac826d021c4abff8ce92626e005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Forest/forest_tiles_54 1.asset using Guid(b3871ac826d021c4abff8ce92626e005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f14c46c702f657408735e1aa8e32518') in 0.076662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.052463 seconds.
+  path: Assets/TIles/Forest/forest_tiles_48 1.asset
+  artifactKey: Guid(994f973d2d6a43445858309b657f8adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Forest/forest_tiles_48 1.asset using Guid(994f973d2d6a43445858309b657f8adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2cca1ea6f87cb8a743c9f75f9e849d') in 0.012548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.250039 seconds.
+  path: Assets/TIles/Forest/forest_tiles_49 1.asset
+  artifactKey: Guid(b8f1ea707df4af84e88065196cdce4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Forest/forest_tiles_49 1.asset using Guid(b8f1ea707df4af84e88065196cdce4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a5bbc72dfbde0dbea4d6c9f130b1c5') in 0.013758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050364 seconds.
+  path: Assets/TIles/Forest/forest_tiles_50 1.asset
+  artifactKey: Guid(106912607456c0d46a6617d1fec5dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Forest/forest_tiles_50 1.asset using Guid(106912607456c0d46a6617d1fec5dee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04eb3f5d129bb7eac9380b88d7ae6bd0') in 0.012363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038738 seconds.
+  path: Assets/TIles/Forest/forest_tiles_51 1.asset
+  artifactKey: Guid(d837aaf143819924f8f1088dced38313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Forest/forest_tiles_51 1.asset using Guid(d837aaf143819924f8f1088dced38313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f3aabdd7c95054480a30dafb69e173') in 0.010721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 225.048787 seconds.
+  path: Assets/TIles/Player
+  artifactKey: Guid(a1b236c0ccc06ca43abab6e776cc226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Player using Guid(a1b236c0ccc06ca43abab6e776cc226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484c2b06c049ad300cd3481d2ca5adfa') in 0.002253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.158421 seconds.
+  path: Assets/TIles/RuleTiles
+  artifactKey: Guid(83a41ef97428d1446a3df759fc64206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/RuleTiles using Guid(83a41ef97428d1446a3df759fc64206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42dda49c92a25c380d667a84827695d') in 0.001902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.152200 seconds.
+  path: Assets/TIles/Space
+  artifactKey: Guid(82ab3e3a475588a4aae17b425bcdbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TIles/Space using Guid(82ab3e3a475588a4aae17b425bcdbccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb3a35f22f4a09a39ecb60044c49ced') in 0.001741 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
