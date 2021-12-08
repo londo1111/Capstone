@@ -6,11 +6,11 @@ public class Items
 {
     public enum ItemType
     {
-       Square,
-       Circle,
-       Triangle,
-       Oval,
-       Trapezoid,
+       S_bow11,
+       S_Shadow05,
+       S_Sword05,
+       S_Water06,
+       W_Axe006,
     }
 
     public ItemType itemtype;
@@ -21,11 +21,11 @@ public class Items
         switch (itemtype)
         {
             default:
-            case ItemType.Square:       return ItemAssets.Instance.squareSprite;
-            case ItemType.Circle:       return ItemAssets.Instance.circleSprite;
-            case ItemType.Triangle:     return ItemAssets.Instance.triangleSprite;
-            case ItemType.Oval:         return ItemAssets.Instance.ovalSprite;
-            case ItemType.Trapezoid:    return ItemAssets.Instance.trapezoidSprite;
+            case ItemType.S_bow11:      return ItemAssets.Instance.S_bow11Sprite;
+            case ItemType.S_Shadow05:   return ItemAssets.Instance.S_Shadow05Sprite;
+            case ItemType.S_Sword05:    return ItemAssets.Instance.S_Sword05Sprite;
+            case ItemType.S_Water06:    return ItemAssets.Instance.S_Water06Sprite; 
+            case ItemType.W_Axe006:     return ItemAssets.Instance.W_Axe006Sprite;
         }
     }
 }
