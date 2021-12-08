@@ -11,11 +11,13 @@ public class ItemAssets : MonoBehaviour
         Instance = this;
     }
 
-    public Sprite squareSprite;
-    public Sprite circleSprite;
-    public Sprite triangleSprite;
-    public Sprite ovalSprite;
-    public Sprite Trapezoid;
+    public Transform pfItemWorld
+
+    public Sprite S_bow11Sprite;
+    public Sprite S_Shadow05Sprite;
+    public Sprite S_Sword05Sprite;
+    public Sprite S_Water06Sprite;
+    public Sprite W_Axe006Sprite;
 
 
 }
