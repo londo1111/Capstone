@@ -49,18 +49,18 @@ public class ShopNPC : MonoBehaviour
 
     public void Sell()
     {
-        if(player.GetComponent<>().money >= price)
+        if(player.GetComponent<Placeholder>().money >= price)
         {
 
             Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
             itemSpawned.gameObject.SetActive(false);
             itemSpawned.parent = player.transform;
-            player.GetComponent<>().money -= price;
+            player.GetComponent<Placeholder>().money -= price;
 
         }
         else
         {
-            print("Sorry you seem to not have enough money to buy this... maybe try asking MrBeast for some money");
+            print("Sorry you seem to not have enough money to buy this... maybe try asking for a loan");
         }
     }
 
