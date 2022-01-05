@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShopNPC : MonoBehaviour
+public class NPCShop : MonoBehaviour
 {
 
     public Button button;
@@ -14,6 +14,8 @@ public class ShopNPC : MonoBehaviour
     private bool shopEnabled;
 
 
+    public GameObject item;
+    public int price;
     public GameObject item;
     public int price;
 
@@ -49,7 +51,7 @@ public class ShopNPC : MonoBehaviour
 
     public void Sell()
     {
-        if(player.GetComponent<Placeholder>().money >= price)
+        if (player.GetComponent<Placeholder>().money >= price)
         {
 
             Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
@@ -60,7 +62,7 @@ public class ShopNPC : MonoBehaviour
         }
         else
         {
-            print("Sorry you seem to not have enough money to buy this... maybe try asking for a loan");
+            print("Sorry you seem to not have enough money to buy this... maybe go try asking for a loan");
         }
     }
 
