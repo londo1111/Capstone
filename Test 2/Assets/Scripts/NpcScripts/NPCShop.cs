@@ -62,7 +62,7 @@ public class NPCShop : MonoBehaviour
         }
         else
         {
-            print("Sorry you seem to not have enough money to buy this... maybe go try asking for a loan");
+            print("Sorry you seem to not have enough money to buy this ...try asking someone for a loan");
         }
     }
 
