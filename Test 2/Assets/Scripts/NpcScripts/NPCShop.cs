@@ -65,7 +65,7 @@ public class NPCShop : MonoBehaviour
             print("Sorry you seem to not have enough money to buy this ...try asking someone for a loan");
         }
     }
-    // player enters the area that can enable the npc to start selling items
+    // player enters the area that enables the npc to start selling items
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
