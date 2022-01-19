@@ -13,7 +13,7 @@ public class NPCShop : MonoBehaviour
     private bool triggeringPlayer;
     private bool shopEnabled;
 
-
+    // the items the player buys and how much they cost to buy
     public GameObject item;
     public int price;
     public GameObject item;
@@ -25,7 +25,7 @@ public class NPCShop : MonoBehaviour
         Button btn = button.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
-
+    // the canavs that shows the image of the item being sold
     public void Update()
     {
         if (shopEnabled)
@@ -35,7 +35,7 @@ public class NPCShop : MonoBehaviour
 
         if (triggeringPlayer)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))  // player presses E and it enables the shop
                 shopEnabled = !shopEnabled;
         }
     }
@@ -48,7 +48,7 @@ public class NPCShop : MonoBehaviour
         }
     }
 
-
+    // how the npc sells the item and what happens when you don't have enough money
     public void Sell()
     {
         if (player.GetComponent<Placeholder>().money >= price)
@@ -62,10 +62,10 @@ public class NPCShop : MonoBehaviour
         }
         else
         {
-            print("Sorry you seem to not have enough money to buy this... maybe go try asking for a loan");
+            print("Sorry you seem to not have enough money to buy this ...try asking someone for a loan");
         }
     }
-
+    // player enters the area that enables the npc to start selling items
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -73,7 +73,7 @@ public class NPCShop : MonoBehaviour
             triggeringPlayer = true;
         }
     }
-
+    // player exits the area
     public void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
