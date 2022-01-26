@@ -14,11 +14,12 @@ public class NPCShop : MonoBehaviour
     private bool shopEnabled;
 
     // the items the player buys and how much they cost to buy
-    public GameObject item;
+    public GameObject item1;
     public int price;
-    public GameObject item;
+    public GameObject item2;
     public int price;
-
+    public GameObject item3;
+    public int price;
 
     public void start()
     {
