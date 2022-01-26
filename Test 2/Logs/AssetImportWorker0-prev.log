@@ -11,19 +11,19 @@ C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/gk.jk/Documents/Github/Capstone/Test 2
+C:/Users/bl.w3/Documents/Github/Capstone/Test 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52852
-Successfully changed project path to: C:/Users/gk.jk/Documents/Github/Capstone/Test 2
-C:/Users/gk.jk/Documents/Github/Capstone/Test 2
+52477
+Successfully changed project path to: C:/Users/bl.w3/Documents/Github/Capstone/Test 2
+C:/Users/bl.w3/Documents/Github/Capstone/Test 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gk.jk/Documents/Github/Capstone/Test 2/Assets
+[Subsystems] Discovering subsystems at path C:/Users/bl.w3/Documents/Github/Capstone/Test 2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,58 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002260 seconds.
+Registered in 0.002174 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  1.289 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003368 seconds.
+Registered in 0.003298 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gk.jk\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gk.jk\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bl.w3\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bl.w3\Documents\Github\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
+- Completed reload, in  1.052 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3583 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3582 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 135.7 MB.
 System memory in use after: 135.9 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4042.
-Total: 2.187600 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.166500 ms MarkObjects: 1.714400 ms  DeleteObjects: 0.052100 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4041.
+Total: 2.295400 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.175800 ms MarkObjects: 1.811100 ms  DeleteObjects: 0.055400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/TIles/Decor/Weapons/Underworld Armor.png
-  artifactKey: Guid(2c7ba771bd81bc34b9ae0d70be2b6a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Weapons/Underworld Armor.png using Guid(2c7ba771bd81bc34b9ae0d70be2b6a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d7477fcf3fda7eb256deb90e009b2a') in 0.099877 seconds 
+  path: Assets/Scripts
+  artifactKey: Guid(87548a1c8bb0a4646b44fd2ca88832e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(87548a1c8bb0a4646b44fd2ca88832e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fdd147abd42bb336065f04a3286264') in 0.005046 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/TIles/Decor/Weapons/woa_items1.png
-  artifactKey: Guid(0ebc44a909636004fbe0b47d456ffd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TIles/Decor/Weapons/woa_items1.png using Guid(0ebc44a909636004fbe0b47d456ffd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc7cd6bcb91657405bcce9a2fdbd2ac') in 0.050025 seconds 
+  Time since last request: 15.474698 seconds.
+  path: Assets/Scripts/CurrencyandPickup
+  artifactKey: Guid(a0c2a9c66b815534f81efc5d32a790c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CurrencyandPickup using Guid(a0c2a9c66b815534f81efc5d32a790c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170409e0113c929a84056b83677f0b12') in 0.002147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 133.400548 seconds.
-  path: Assets/Scripts/NpcScripts/NPCShop.cs
-  artifactKey: Guid(62a2df3bfb0041d489c803aabe1c0469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NpcScripts/NPCShop.cs using Guid(62a2df3bfb0041d489c803aabe1c0469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c84be5468a259f980d28e076105436c') in 0.011132 seconds 
+  Time since last request: 12.259970 seconds.
+  path: Assets/Scripts/CurrencyandPickup/MoneyManager.cs
+  artifactKey: Guid(976a9a77fafba4e4fb8daa739d51ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CurrencyandPickup/MoneyManager.cs using Guid(976a9a77fafba4e4fb8daa739d51ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e850ff085d1523b2e40f8bbc13f120a') in 0.020617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.453040 seconds.
+  path: Assets/Scripts/CurrencyandPickup/CoinPickup.cs
+  artifactKey: Guid(740f3ec329b854249bae9ec6df16e816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CurrencyandPickup/CoinPickup.cs using Guid(740f3ec329b854249bae9ec6df16e816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eeb834e340a141b7d5e082f68fab5b') in 0.002175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.539149 seconds.
+  path: Assets/Scripts/CurrencyandPickup/CoinPickup.cs
+  artifactKey: Guid(740f3ec329b854249bae9ec6df16e816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CurrencyandPickup/CoinPickup.cs using Guid(740f3ec329b854249bae9ec6df16e816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff286f9e98b83cb81c9f2e57bf6f5825') in 0.002242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.034552 seconds.
+  path: Assets/Scripts/CurrencyandPickup/MoneyManager.cs
+  artifactKey: Guid(976a9a77fafba4e4fb8daa739d51ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CurrencyandPickup/MoneyManager.cs using Guid(976a9a77fafba4e4fb8daa739d51ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff817a31eb157be9b855b373def1e86c') in 0.002461 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

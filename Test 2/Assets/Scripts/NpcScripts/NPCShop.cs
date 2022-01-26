@@ -60,13 +60,13 @@ public class NPCShop : MonoBehaviour
     // how the npc sells the item and what happens when you don't have enough money
     public void Sell()
     {
-        if (player.GetComponent<MoneyManager>().money >= price)
+        if (player.GetComponent<CoinPickup>().money >= price)
         {
 
             Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
             itemSpawned.gameObject.SetActive(false);
             itemSpawned.parent = player.transform;
-            player.GetComponent<MoneyManager>().money -= price;
+            player.GetComponent<CoinPickup>().money -= price;
 
         }
         else
