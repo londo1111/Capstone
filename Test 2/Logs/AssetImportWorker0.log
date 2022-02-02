@@ -1,0 +1,188 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/9L.SP/Documents/GitHub/Capstone/Test 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54203
+Successfully changed project path to: C:/Users/9L.SP/Documents/GitHub/Capstone/Test 2
+C:/Users/9L.SP/Documents/GitHub/Capstone/Test 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 98.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/9L.SP/Documents/GitHub/Capstone/Test 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002131 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003178 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\9L.SP\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\9L.SP\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3581 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.6 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4039.
+Total: 2.187900 ms (FindLiveObjects: 0.244300 ms CreateObjectMapping: 0.168600 ms MarkObjects: 1.722500 ms  DeleteObjects: 0.051700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Invetory/NewBehaviourScript.cs
+  artifactKey: Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/NewBehaviourScript.cs using Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3baf83a7514ae36d7aed1696a4e2f57') in 0.076951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.830534 seconds.
+  path: Assets/Scripts/PlayerScripts
+  artifactKey: Guid(dbb4a449499367d4bb3404f1c31e4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts using Guid(dbb4a449499367d4bb3404f1c31e4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cce387f149b0c61da0606657e54801a') in 0.001965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 241.175064 seconds.
+  path: Assets/Scripts/Invetory/Items.cs
+  artifactKey: Guid(f9a9bc7e220fd474e888871c9852ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Items.cs using Guid(f9a9bc7e220fd474e888871c9852ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643e097a7772415a311fbbe35f3d564a') in 0.001937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 790.973852 seconds.
+  path: Assets/Scripts/Invetory/NewBehaviourScript.cs
+  artifactKey: Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/NewBehaviourScript.cs using Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ed2027e8adbf801c39436d69bd8b7b') in 0.008558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.637885 seconds.
+  path: Assets/Scripts/Invetory/Interactable.cs
+  artifactKey: Guid(10bb622a0bce26041932ebc3ce59590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Interactable.cs using Guid(10bb622a0bce26041932ebc3ce59590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca5bdfbcce18db7a823b19236c371b6') in 0.002658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.307006 seconds.
+  path: Assets/Scripts/Invetory/Items.cs
+  artifactKey: Guid(f9a9bc7e220fd474e888871c9852ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Items.cs using Guid(f9a9bc7e220fd474e888871c9852ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559cdc6c708bb3c3bbfb3304f419908c') in 0.002465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.127355 seconds.
+  path: Assets/Scripts/Invetory/Assets ItemPickup.cs
+  artifactKey: Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Assets ItemPickup.cs using Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d77f4de3666797838d33fd3b9b9d2c7') in 0.003363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 279.846152 seconds.
+  path: Assets/Scripts/Invetory/Assets ItemPickup.cs
+  artifactKey: Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Assets ItemPickup.cs using Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e560cbb7c4b6421495dda60e139cd7c') in 0.003566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.080501 seconds.
+  path: Assets/Scripts/Invetory/Assets ItemPickup.cs
+  artifactKey: Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Assets ItemPickup.cs using Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7589607cbbfac7b497690ba0ecbcdc39') in 0.003650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 397.501153 seconds.
+  path: Assets/Scripts/Invetory/Assets ItemPickup.cs
+  artifactKey: Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Assets ItemPickup.cs using Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a86df769d78dd2d5aa29b7143522e51') in 0.004839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.610350 seconds.
+  path: Assets/Scripts/Invetory/Items.cs
+  artifactKey: Guid(f9a9bc7e220fd474e888871c9852ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Items.cs using Guid(f9a9bc7e220fd474e888871c9852ad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff86e7d89340695742e75a8ceca928a5') in 0.004055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.699903 seconds.
+  path: Assets/Scripts/Invetory/Interactable.cs
+  artifactKey: Guid(10bb622a0bce26041932ebc3ce59590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Interactable.cs using Guid(10bb622a0bce26041932ebc3ce59590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e04f7c184b5c2298ec75c25ac5cff') in 0.003946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.247916 seconds.
+  path: Assets/Scripts/Invetory/Interactable.cs
+  artifactKey: Guid(10bb622a0bce26041932ebc3ce59590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Interactable.cs using Guid(10bb622a0bce26041932ebc3ce59590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164660fe19eab587a98ff8d26d8d39e4') in 0.003018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 733.723920 seconds.
+  path: Assets/Scripts/Invetory/Assets ItemPickup.cs
+  artifactKey: Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/Assets ItemPickup.cs using Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c99f6b6072a737e2fd179656df11ef4') in 0.003729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.818981 seconds.
+  path: Assets/Scripts/Invetory/ItemPickup.cs
+  artifactKey: Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/ItemPickup.cs using Guid(323820e1094345a4ba72b2f196b2a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27418998705c28d1cfb7991f7fc26e3') in 0.005865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.927236 seconds.
+  path: Assets/Scripts/NpcScripts
+  artifactKey: Guid(0510e86f0df0d2441b04ed5cf6a8d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NpcScripts using Guid(0510e86f0df0d2441b04ed5cf6a8d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40df39094467c3e64b87fd50fa54a6a7') in 0.008003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.359896 seconds.
+  path: Assets/Scripts/Invetory/NewBehaviourScript.cs
+  artifactKey: Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/NewBehaviourScript.cs using Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa4b592d085ccc50ef968542ea93dfe') in 0.007635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.892119 seconds.
+  path: Assets/Scripts/Invetory/ItemPickUp.cs
+  artifactKey: Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/ItemPickUp.cs using Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74150ceafa7ee47f4807e5355f41018') in 0.008051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 240.639557 seconds.
+  path: Assets/Scripts/Invetory/ItemPickUp.cs
+  artifactKey: Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Invetory/ItemPickUp.cs using Guid(4bc413a9e9cff2843a2de15713ca7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72df576973a8b5273971bca076aa202') in 0.004067 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
