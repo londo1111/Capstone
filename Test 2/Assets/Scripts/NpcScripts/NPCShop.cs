@@ -14,20 +14,20 @@ public class NPCShop : MonoBehaviour
     private bool shopEnabled;
 
     // the items the player buys and how much they cost to buy
-    public GameObject item1;
+    public GameObject item;
     public int price;
     public GameObject item2;
-    public int price;
+    public int price2;
     public GameObject item3;
-    public int price;
+    public int price3;
     public GameObject item4;
-    public int price;
+    public int price4;
     public GameObject item5;
-    public int price;
+    public int price5;
     public GameObject item6;
-    public int price;
+    public int price6;
     public GameObject item7;
-    public int price;
+    public int price7;
 
     public void start()
     {
@@ -38,14 +38,20 @@ public class NPCShop : MonoBehaviour
     public void Update()
     {
         if (shopEnabled)
+        {
             canvas.SetActive(true);
+        }
         else
+        {
             canvas.SetActive(false);
+        }
 
         if (triggeringPlayer)
         {
             if (Input.GetKeyDown(KeyCode.E))  // player presses E and it enables the shop
+            {
                 shopEnabled = !shopEnabled;
+            }
         }
     }
 
@@ -60,13 +66,13 @@ public class NPCShop : MonoBehaviour
     // how the npc sells the item and what happens when you don't have enough money
     public void Sell()
     {
-        if (player.GetComponent<CoinPickup>().money >= price)
+        if (player.GetComponent<MoneyManager>().currentCoin >= price)
         {
 
             Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
             itemSpawned.gameObject.SetActive(false);
             itemSpawned.parent = player.transform;
-            player.GetComponent<CoinPickup>().money -= price;
+            player.GetComponent<MoneyManager>().currentCoin -= price;
 
         }
         else
@@ -91,3 +97,4 @@ public class NPCShop : MonoBehaviour
         }
     }
 }
+

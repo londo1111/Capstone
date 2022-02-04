@@ -32,10 +32,10 @@ public class MoneyManager : MonoBehaviour
         
 
          void AddMoney(int coinToAdd)
-        {
+         {
             currentCoin += coinToAdd;
             PlayerPrefs.SetInt("CurrentMoney", currentCoin);
             moneyText.text = "Coin: " + currentCoin;
-        }
+         }
     }
 }
