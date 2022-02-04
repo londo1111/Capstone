@@ -14,11 +14,20 @@ public class NPCShop : MonoBehaviour
     private bool shopEnabled;
 
     // the items the player buys and how much they cost to buy
-    public GameObject item;
+    public GameObject item1;
     public int price;
-    public GameObject item;
+    public GameObject item2;
     public int price;
-
+    public GameObject item3;
+    public int price;
+    public GameObject item4;
+    public int price;
+    public GameObject item5;
+    public int price;
+    public GameObject item6;
+    public int price;
+    public GameObject item7;
+    public int price;
 
     public void start()
     {
@@ -51,13 +60,13 @@ public class NPCShop : MonoBehaviour
     // how the npc sells the item and what happens when you don't have enough money
     public void Sell()
     {
-        if (player.GetComponent<Placeholder>().money >= price)
+        if (player.GetComponent<CoinPickup>().money >= price)
         {
 
             Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
             itemSpawned.gameObject.SetActive(false);
             itemSpawned.parent = player.transform;
-            player.GetComponent<Placeholder>().money -= price;
+            player.GetComponent<CoinPickup>().money -= price;
 
         }
         else
