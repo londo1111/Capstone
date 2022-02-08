@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.UI
+using Unity.UI;
 using UnityEngine;
 
 public class Quit : MonoBehaviour
