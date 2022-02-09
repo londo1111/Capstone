@@ -22,14 +22,14 @@ public class BoundedNPC : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (!playerInRange)
         {
             Move();
         }
         
-    }
+    }*/
 
     private void Move()
     {

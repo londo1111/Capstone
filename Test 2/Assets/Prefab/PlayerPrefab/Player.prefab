@@ -10,14 +10,15 @@ GameObject:
   m_Component:
   - component: {fileID: 6253443512334607292}
   - component: {fileID: 6253443512334607283}
-  - component: {fileID: 6253443512334607282}
   - component: {fileID: 6253443512334607281}
-  - component: {fileID: 6253443512334607280}
   - component: {fileID: 6253443512334607293}
   - component: {fileID: 2072253056949354121}
+  - component: {fileID: 1115952816}
+  - component: {fileID: 1115952817}
+  - component: {fileID: 1009515836908528888}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1135803801
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 5241334563011687878, guid: 88ecca4b612f30c4e9094e1ded6084fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -89,23 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6253443512334607282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6253443512334607287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3235182ab41864b8d9bf93aa582c97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 6253443512334607293}
-  moveSpeed: 5
-  rb: {fileID: 6253443512334607281}
-  cam: {fileID: 0}
-  startingPosition: {fileID: 11400000, guid: 945944c80a0fa7f4b9236a117b2f8c46, type: 2}
 --- !u!50 &6253443512334607281
 Rigidbody2D:
   serializedVersion: 4
@@ -127,21 +111,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6253443512334607280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6253443512334607287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f217f8a4234c86148829245a81bf3ca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 6253443513237811500}
-  bulletPrefab: {fileID: 5062909371168807540, guid: 9924c8ad93d02de439de027478997e73, type: 3}
-  bulletForce: 20
 --- !u!95 &6253443512334607293
 Animator:
   serializedVersion: 3
@@ -187,6 +156,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84375, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &1115952816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253443512334607287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0853b2647df94de4094295a33dc108d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFull: 00
+  slots:
+  - {fileID: 0}
+--- !u!114 &1115952817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253443512334607287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3235182ab41864b8d9bf93aa582c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6253443512334607293}
+  moveSpeed: 5
+  rb: {fileID: 6253443512334607281}
+  cam: {fileID: 0}
+  startingPosition: {fileID: 0}
+--- !u!114 &1009515836908528888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253443512334607287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f217f8a4234c86148829245a81bf3ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 6253443513237811500}
+  bulletPrefab: {fileID: 5062909371168807540, guid: 9924c8ad93d02de439de027478997e73, type: 3}
+  bulletForce: 20
 --- !u!1 &6253443513237811491
 GameObject:
   m_ObjectHideFlags: 0
