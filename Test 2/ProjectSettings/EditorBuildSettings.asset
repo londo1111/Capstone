@@ -12,8 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Dont Touch Joey these are your test scenes/TestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
-    path: Assets/Scenes/Sample_Scene.unity
-    guid: 2efaf45f185a42a4c893a3f6a72f8e37
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 354a0b70c146622498c5f2e15a0b95ad
   - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: 9c8c61c157786c84cb863ccb3936a538
