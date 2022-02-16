@@ -5,37 +5,42 @@ using UnityEngine.UI;
 
 public class NPCShop : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject player;
+    [SerializeField]
+    private GameObject canvas;
 
-    public Button button;
-    public GameObject player;
-    public GameObject canvas;
+    private MoneyManager moneyManager;
 
     private bool triggeringPlayer;
     private bool shopEnabled;
 
     // the items the player buys and how much they cost to buy
-    public GameObject item;
-    public int price;
-    public GameObject item2;
-    public int price2;
-    public GameObject item3;
-    public int price3;
-    public GameObject item4;
-    public int price4;
-    public GameObject item5;
-    public int price5;
-    public GameObject item6;
-    public int price6;
-    public GameObject item7;
-    public int price7;
+    [SerializeField] 
+    private GameObject item;
+    [SerializeField]
+    private int price;
+    [SerializeField] 
+    private GameObject item2;
+    [SerializeField]
+    private int price2;
+    [SerializeField] 
+    private GameObject item3;
+    [SerializeField]
+    private int price3;
 
-    public void start()
+    private void Start()
     {
-        Button btn = button.GetComponent<Button>();
-        btn.onClick.AddListener(TaskOnClick);
+        moneyManager = player.GetComponent<MoneyManager>();
     }
+
     // the canavs that shows the image of the item being sold
     public void Update()
+    {
+        InputShopCheck();
+    }
+
+    private void InputShopCheck()
     {
         if (shopEnabled)
         {
@@ -46,54 +51,58 @@ public class NPCShop : MonoBehaviour
             canvas.SetActive(false);
         }
 
-        if (triggeringPlayer)
+        /*if (triggeringPlayer)
         {
             if (Input.GetKeyDown(KeyCode.E))  // player presses E and it enables the shop
             {
                 shopEnabled = !shopEnabled;
             }
-        }
+        }*/
     }
 
-    void TaskOnClick()
+    public void ShopItemClick()
     {
+        Debug.Log("me press");
         if (shopEnabled)
         {
-            Sell();
+            SellItem();
         }
     }
 
     // how the npc sells the item and what happens when you don't have enough money
-    public void Sell()
+    public void SellItem()
     {
-        if (player.GetComponent<MoneyManager>().currentCoin >= price)
+        if (moneyManager.CurrentCoins >= price)
         {
 
             Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
             itemSpawned.gameObject.SetActive(false);
             itemSpawned.parent = player.transform;
-            player.GetComponent<MoneyManager>().currentCoin -= price;
-
+            moneyManager.RemoveCoins(price);
         }
         else
         {
             print("Sorry you seem to not have enough money to buy this ...try asking someone for a loan");
         }
     }
+
     // player enters the area that enables the npc to start selling items
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
+            shopEnabled = true;
             triggeringPlayer = true;
         }
     }
+
     // player exits the area
-    public void OnTriggerExit(Collider other)
+    public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             triggeringPlayer = false;
+            shopEnabled = false;
         }
     }
 }
