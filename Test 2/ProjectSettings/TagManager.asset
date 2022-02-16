@@ -16,7 +16,7 @@ TagManager:
   - Player
   - Hazards
   - Shopkeeper
-  - 
+  - Shop
   - 
   - 
   - 
@@ -40,6 +40,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Shop
+    uniqueID: 2413573431
     locked: 0
   - name: Background
     uniqueID: 689487475
