@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class EndGame : MonoBehaviour
 {
-    public void OnQuit()
+    public void Update()
     {
-        Application.Quit();//quit game
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();//quit game
+            Debug.Log("bap");
+        }
     }
 }

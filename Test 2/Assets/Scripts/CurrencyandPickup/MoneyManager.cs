@@ -5,37 +5,27 @@ using UnityEngine.UI;
 
 public class MoneyManager : MonoBehaviour
 {
-    public Text moneyText;
-    public int currentCoin;
+    [SerializeField]
+    private Text moneyText;
+
+    [SerializeField]
+    private int currentCoins;
+    public int CurrentCoins { get { return currentCoins; } }
     
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
-        if(PlayerPrefs.HasKey("CurrentMoney"))
-        {
-            currentCoin = PlayerPrefs.GetInt("CurrentMoney");
-        } else {
-            currentCoin = 0;
-            PlayerPrefs.SetInt("Currentmoney", 0);
-        }
-
-        moneyText.text = "Coin: " + currentCoin;
-
-
-        
+        moneyText.text = "Coin: " + currentCoins;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddCoins(int coinToAdd)
     {
-        
+        currentCoins += Mathf.Abs(coinToAdd);
+        moneyText.text = "Coin: " + currentCoins;
+    }
 
-         void AddMoney(int coinToAdd)
-         {
-            currentCoin += coinToAdd;
-            PlayerPrefs.SetInt("CurrentMoney", currentCoin);
-            moneyText.text = "Coin: " + currentCoin;
-         }
+    public void RemoveCoins(int coinsToRemove)
+    {
+        currentCoins -= Mathf.Abs(coinsToRemove);
+        moneyText.text = "Coin: " + currentCoins;
     }
 }
