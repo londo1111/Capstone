@@ -14,7 +14,7 @@ public class MoneyManager : MonoBehaviour
     
     private void Start()
     {
-        moneyText.text = "Coin: " + currentCoins;
+        moneyText.text = "Coin: " + currentCoins.ToString();
     }
 
     public void AddCoins(int coinToAdd)
