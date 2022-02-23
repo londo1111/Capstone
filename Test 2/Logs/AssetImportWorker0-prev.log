@@ -1,0 +1,170 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54822
+Successfully changed project path to: C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
+C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 107.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/H5.BX/Documents/GitHub/Capstone/Test 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 450 (ID=0x682b)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   24.20.11020.3002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002360 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\H5.BX\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\H5.BX\Documents\GitHub\Capstone\Test 2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4103.
+Total: 2.225800 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.160200 ms MarkObjects: 1.754300 ms  DeleteObjects: 0.056100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tiles/Meidaval
+  artifactKey: Guid(795c56cfc3c3c7945b7a3e97a3e477ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Meidaval using Guid(795c56cfc3c3c7945b7a3e97a3e477ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc4641fa54dba7be09c9cb91532a39') in 0.005400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.569399 seconds.
+  path: Assets/Tiles/Graveyard
+  artifactKey: Guid(79dbfd3bc1ab69047b25abec6e27c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard using Guid(79dbfd3bc1ab69047b25abec6e27c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098219a6098d2a2443ef56707f5803c4') in 0.002755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.055653 seconds.
+  path: Assets/Tiles/Graveyard/FlowerBlueGrass-2.png.png
+  artifactKey: Guid(ea4624aa4045f404dbf1832662d3ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerBlueGrass-2.png.png using Guid(ea4624aa4045f404dbf1832662d3ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc97406a864b051ef666ad1d7b6f23b') in 0.116764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tiles/Graveyard/FlowerRedGrass-1.png.png
+  artifactKey: Guid(27c36274487ae894689f2d9b2e803790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerRedGrass-1.png.png using Guid(27c36274487ae894689f2d9b2e803790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27baae563a1753c203bd77eac8723e80') in 0.007708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tiles/Graveyard/FlowerPinkGrass-3.png.png
+  artifactKey: Guid(d368656f329f5994782b0eb38fc689a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerPinkGrass-3.png.png using Guid(d368656f329f5994782b0eb38fc689a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bdb2fbeed74801fd9f5b2100abee1e') in 0.009248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tiles/Graveyard/GraveyardGrass-3.png.png
+  artifactKey: Guid(a27a778672026de469562a6cf6d90b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/GraveyardGrass-3.png.png using Guid(a27a778672026de469562a6cf6d90b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4be9bed2e66578394fae54ad85a710a') in 0.009427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.120143 seconds.
+  path: Assets/Tiles/Graveyard/GraveyardGrass-3.png.png
+  artifactKey: Guid(a27a778672026de469562a6cf6d90b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/GraveyardGrass-3.png.png using Guid(a27a778672026de469562a6cf6d90b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eea71bbaca4bbc63d7c4de4e337e56b') in 0.010030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.196036 seconds.
+  path: Assets/Tiles/Graveyard/FlowerBlueGrass-2.png.png
+  artifactKey: Guid(ea4624aa4045f404dbf1832662d3ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerBlueGrass-2.png.png using Guid(ea4624aa4045f404dbf1832662d3ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377078253ca52d8375969af72bb6c534') in 0.007757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tiles/Graveyard/FlowerRedGrass-1.png.png
+  artifactKey: Guid(27c36274487ae894689f2d9b2e803790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerRedGrass-1.png.png using Guid(27c36274487ae894689f2d9b2e803790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0ff669e02b6607f7efc28def37ee4f') in 0.008415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Tiles/Graveyard/FlowerPinkGrass-3.png.png
+  artifactKey: Guid(d368656f329f5994782b0eb38fc689a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerPinkGrass-3.png.png using Guid(d368656f329f5994782b0eb38fc689a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e96d0b0964fba039e9be2a391a58e7f') in 0.010951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.797447 seconds.
+  path: Assets/Tiles/Graveyard/FlowerBlueGrass-2.png.asset
+  artifactKey: Guid(5dd938ba27d47d84fa6811d71fb61015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerBlueGrass-2.png.asset using Guid(5dd938ba27d47d84fa6811d71fb61015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20575601b812975f6c23fc0500252dd1') in 0.015610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Tiles/Graveyard/FlowerRedGrass-1.png.asset
+  artifactKey: Guid(c8e89f0ca16c7e94b8e88047ba5674f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerRedGrass-1.png.asset using Guid(c8e89f0ca16c7e94b8e88047ba5674f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a6517f5df38fbe409a6d1b74e08698') in 0.007148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Tiles/Graveyard/FlowerPinkGrass-3.png.asset
+  artifactKey: Guid(d71c55571e57bd84eae94d7921b6e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/FlowerPinkGrass-3.png.asset using Guid(d71c55571e57bd84eae94d7921b6e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6946e2a9f8be6215ce08269b8641ed34') in 0.007731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Tiles/Graveyard/GraveyardGrass-3.png.asset
+  artifactKey: Guid(d4ac6909f8ae42240b179c889dbce6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/GraveyardGrass-3.png.asset using Guid(d4ac6909f8ae42240b179c889dbce6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22cbab44d0f0573be27b117631035c3') in 0.006989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 498.139506 seconds.
+  path: Assets/Tiles/Graveyard/GraveyardHOLE-5.png.png
+  artifactKey: Guid(7826414846980764c8f18b8f938af32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/GraveyardHOLE-5.png.png using Guid(7826414846980764c8f18b8f938af32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591a1c614c9494ee48daf552e9a1af4f') in 0.010215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.387842 seconds.
+  path: Assets/Tiles/Graveyard/GraveyardHOLE-5.png.png
+  artifactKey: Guid(7826414846980764c8f18b8f938af32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Graveyard/GraveyardHOLE-5.png.png using Guid(7826414846980764c8f18b8f938af32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bb5ff550a78083690a5278ebddac27') in 0.007012 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
