@@ -10,23 +10,27 @@ public class NPCShop : MonoBehaviour
     [SerializeField]
     private GameObject shopUI;
 
+    private Transform itemSpawn;
+
     private MoneyManager moneyManager;
 
     private bool shopEnabled;
 
-    // the items the player buys and how much they cost to buy
+    [Header("Shop Items")]
+
     [SerializeField] 
-    private GameObject item;
+    private GameObject item01;
     [SerializeField] 
-    private GameObject item2;
+    private GameObject item02;
     [SerializeField] 
-    private GameObject item3;
+    private GameObject item03;
 
     private void Start()
     {
         shopUI.SetActive(false);
         shopEnabled = false;
         moneyManager = player.GetComponent<MoneyManager>();
+        itemSpawn = transform.Find("ItemSpawn");
     }
 
     // how the npc sells the item and what happens when you don't have enough money
@@ -41,17 +45,57 @@ public class NPCShop : MonoBehaviour
 
         if (moneyManager.CurrentCoins >= price)
         {
-            Transform itemSpawned = Instantiate(item.transform, player.transform.position, Quaternion.identity);
-            itemSpawned.gameObject.SetActive(false);
-            itemSpawned.parent = player.transform;
+            string newItem;
+
+            switch (price)
+            {
+                case 25:
+                    newItem = "Item1";
+                    break;
+
+                case 40:
+                    newItem = "Item2";
+                    break;
+
+                case 60:
+                    newItem = "Item3";
+                    break;
+
+                default:
+                    return;
+            }
+
+            SummonItem(newItem);
             moneyManager.RemoveCoins(price);
         }
     }
 
-    // player enters the area that enables the npc to start selling items
+    private void SummonItem(string item)
+    {
+        switch (item) // Goes through all possible cases of item variations, instantiates specific item as a result
+        {
+            case "Item1":
+                Instantiate(item01, itemSpawn.position, Quaternion.identity);
+                break;
+
+            case "Item2":
+                Instantiate(item02, itemSpawn.position, Quaternion.identity);
+                break;
+
+            case "Item3":
+                Instantiate(item03, itemSpawn.position, Quaternion.identity);
+                break;
+
+            default:
+                Debug.LogWarning("No matching item case");
+                break;
+        }
+    }
+
+
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) // Checks if player enters shop trigger box, enables UI if so
         {
             shopEnabled = true;
             shopUI.SetActive(true);
@@ -61,7 +105,7 @@ public class NPCShop : MonoBehaviour
     // player exits the area
     public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) // Checks if player leaves shop trigger box, disables UI if so
         {
             shopEnabled = false;
             shopUI.SetActive(false);
