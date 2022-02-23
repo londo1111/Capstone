@@ -176,8 +176,15 @@ Received Import Request.
 Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910722454bd7c52b603bcf9663f5547d') in 0.002667 seconds 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 28.345640 seconds.
   path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
   artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34be308c32d4c1f9d1f587ab7c8fd54e') in 0.014440 seconds 
+=======
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tiles/Liam/Dungeon D_cora2_5.asset
+  artifactKey: Guid(94e23974c8af85a4b99c6684ea899d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Liam/Dungeon D_cora2_5.asset using Guid(94e23974c8af85a4b99c6684ea899d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e290547173653c48906d6e544b460c9c') in 0.007033 seconds 
+>>>>>>> Stashed changes
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
