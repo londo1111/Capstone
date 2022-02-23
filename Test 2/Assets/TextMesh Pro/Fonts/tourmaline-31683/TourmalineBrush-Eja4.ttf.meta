@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: e4b5fe3a98cb8724f87b47c64513fa9d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Tourmaline
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1243d1942bc0be4488db7d39f34d0671, type: 3}
+  - {fileID: 12800000, guid: d2eae72ec6a07574bbff11382b9e4654, type: 3}
+  - {fileID: 12800000, guid: b3fe18638252bec4e8654828d9b91bd3, type: 3}
+  - {fileID: 12800000, guid: b39bea8b70f11204eaebaa2f678d7ded, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
