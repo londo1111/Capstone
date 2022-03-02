@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MoneyManager : MonoBehaviour
 {
-    [SerializeField]
     private TextMeshProUGUI moneyText;
 
     [SerializeField]
@@ -13,18 +13,36 @@ public class MoneyManager : MonoBehaviour
     
     private void Start()
     {
-        moneyText.text = "Coins: " + currentCoins.ToString();
+        if (FindObjectsOfType<MoneyManager>().Length > 1)
+        {
+            Destroy(gameObject);
+        }
+
+        moneyText = GameObject.FindGameObjectWithTag("GoldDisplay").GetComponent<TextMeshProUGUI>();
+        moneyText.text = ": " + currentCoins.ToString();
+
+        DontDestroyOnLoad(gameObject);
     }
 
     public void AddCoins(int coinToAdd)
     {
+        if (moneyText == null)
+        {
+            moneyText = GameObject.FindGameObjectWithTag("GoldDisplay").GetComponent<TextMeshProUGUI>();
+        }
+
         currentCoins += Mathf.Abs(coinToAdd);
-        moneyText.text = "Coins: " + currentCoins;
+        moneyText.text = ": " + currentCoins;
     }
 
     public void RemoveCoins(int coinsToRemove)
     {
+        if (moneyText == null)
+        {
+            moneyText = GameObject.FindGameObjectWithTag("GoldDisplay").GetComponent<TextMeshProUGUI>();
+        }
+
         currentCoins -= Mathf.Abs(coinsToRemove);
-        moneyText.text = "Coins: " + currentCoins;
+        moneyText.text = ": " + currentCoins;
     }
 }
