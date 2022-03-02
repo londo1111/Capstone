@@ -97,10 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 902686c01cd155748a39c188fc921f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 6253443512334607292, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
   MoveSpeed: 2
   stoppingDistance: 0
-  offset: 180
+  offset: 0
 --- !u!61 &8123299942874517103
 BoxCollider2D:
   m_ObjectHideFlags: 0

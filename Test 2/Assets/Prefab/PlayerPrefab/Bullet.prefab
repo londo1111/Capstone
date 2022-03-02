@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeDestroy: 3
-  hitEffect: {fileID: 0}
+  hitEffect: {fileID: 162780055822655616, guid: 33444dcc22b61ae4bb4238ed2b8a6764, type: 3}
 --- !u!50 &677705640947667072
 Rigidbody2D:
   serializedVersion: 4
