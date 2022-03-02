@@ -1,0 +1,67 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class PlayerHealth : MonoBehaviour
+{
+    [SerializeField]
+    private int maxHealth = 100;
+    [SerializeField] [Range(0, 100)]
+    private int currentHealth;
+
+    [SerializeField]
+    private Gradient healthBarColor;
+
+    private Image healthBar;
+
+    private void Awake()
+    {
+        currentHealth = maxHealth;
+        healthBar = GameObject.Find("HealthBar").GetComponent<Image>();
+
+        healthBar.color = healthBarColor.Evaluate((float)currentHealth / (float)maxHealth);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            TakeDamage(10);
+        }
+    }
+
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= Mathf.Abs(amount);
+
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        UpdateHealthBar();
+    }
+
+    public void RestoreHealth(int amount)
+    {
+        currentHealth += Mathf.Abs(amount);
+
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
+        UpdateHealthBar();
+    }
+
+    private void UpdateHealthBar()
+    {
+        float newAmount = (float)currentHealth / (float)maxHealth;
+        Color newColor = healthBarColor.Evaluate(newAmount);
+
+        healthBar.fillAmount = newAmount;
+        healthBar.color = newColor;
+    }
+}

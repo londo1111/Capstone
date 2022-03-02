@@ -15,10 +15,9 @@ public class EnemyFollow : MonoBehaviour
     private Vector2 thisPos;
     private float angle;
 
-     void Start()
+    void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-
     }
 
     void Update()
@@ -44,6 +43,7 @@ public class EnemyFollow : MonoBehaviour
         }
     }
 
+    /*
     void LateUpdate()
     {
         targetPos = Player.position;
@@ -53,5 +53,6 @@ public class EnemyFollow : MonoBehaviour
         angle = Mathf.Atan2(targetPos.y, targetPos.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + offset));
     }
+    */
 }
 
