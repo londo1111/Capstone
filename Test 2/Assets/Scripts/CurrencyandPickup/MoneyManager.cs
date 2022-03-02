@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -22,6 +21,21 @@ public class MoneyManager : MonoBehaviour
         moneyText.text = ": " + currentCoins.ToString();
 
         DontDestroyOnLoad(gameObject);
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("Loaded scene " + scene.name);
+
+        if (scene.buildIndex == 0)
+        {
+            Destroy(gameObject);
+        }
+
+        moneyText = GameObject.FindGameObjectWithTag("GoldDisplay").GetComponent<TextMeshProUGUI>();
+        moneyText.text = ": " + currentCoins.ToString();
     }
 
     public void AddCoins(int coinToAdd)
