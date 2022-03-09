@@ -8,7 +8,6 @@ public class EnemyFollow : MonoBehaviour
     public Transform Player;
     public int MoveSpeed = 2;
     public float stoppingDistance;
-    public GameObject gold;
 
     public float offset;
 
@@ -34,14 +33,8 @@ public class EnemyFollow : MonoBehaviour
     {
         if (collision.transform.tag == "Player")
         {
-            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
-        }
-
-        if (collision.transform.tag == "PlayerBullet")
-        {
-            Instantiate(gold, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-            Debug.Log("bap");
+            Scene scene = SceneManager.GetActiveScene(); 
+            SceneManager.LoadScene(scene.name);
         }
     }
 

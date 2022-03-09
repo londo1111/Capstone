@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -14,13 +15,14 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField]
     private Gradient healthBarColor;
 
+    [SerializeField]
     private Image healthBar;
+    [SerializeField]
+    private TextMeshProUGUI healthTitle;
 
     private void Awake()
     {
         currentHealth = maxHealth;
-        healthBar = GameObject.Find("HealthBar").GetComponent<Image>();
-
         healthBar.color = healthBarColor.Evaluate((float)currentHealth / (float)maxHealth);
     }
 
@@ -63,5 +65,12 @@ public class PlayerHealth : MonoBehaviour
 
         healthBar.fillAmount = newAmount;
         healthBar.color = newColor;
+        healthTitle.color = newColor;
+    }
+
+    public void SetMaxHealth(int value)
+    {
+        maxHealth = value;
+        UpdateHealthBar();
     }
 }
