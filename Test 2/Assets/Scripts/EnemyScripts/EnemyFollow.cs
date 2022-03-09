@@ -36,12 +36,6 @@ public class EnemyFollow : MonoBehaviour
             Scene scene = SceneManager.GetActiveScene(); 
             SceneManager.LoadScene(scene.name);
         }
-
-        if (collision.transform.tag == "PlayerBullet")
-        {
-            Destroy(gameObject);
-            Debug.Log("bap");
-        }
     }
 
     /*

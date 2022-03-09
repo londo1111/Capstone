@@ -15,15 +15,14 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField]
     private Gradient healthBarColor;
 
+    [SerializeField]
     private Image healthBar;
+    [SerializeField]
     private TextMeshProUGUI healthTitle;
 
     private void Awake()
     {
         currentHealth = maxHealth;
-        healthBar = GameObject.Find("HealthBar").GetComponent<Image>();
-        healthTitle = healthBar.transform.parent.Find("Title").GetComponent<TextMeshProUGUI>();
-
         healthBar.color = healthBarColor.Evaluate((float)currentHealth / (float)maxHealth);
     }
 
