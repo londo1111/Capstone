@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8123299942874517103}
   m_Layer: 0
   m_Name: Rare Classy Ghost
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,9 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 902686c01cd155748a39c188fc921f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 6253443512334607292, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
+  Player: {fileID: 0}
   MoveSpeed: 2
   stoppingDistance: 0
+  gold: {fileID: 4907633111588073266, guid: 7f4b7026704f6ef478203981746b56f2, type: 3}
   offset: 0
 --- !u!61 &8123299942874517103
 BoxCollider2D:
@@ -111,7 +112,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
