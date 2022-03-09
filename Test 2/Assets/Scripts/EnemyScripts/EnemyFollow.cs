@@ -33,7 +33,8 @@ public class EnemyFollow : MonoBehaviour
     {
         if (collision.transform.tag == "Player")
         {
-            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+            Scene scene = SceneManager.GetActiveScene(); 
+            SceneManager.LoadScene(scene.name);
         }
 
         if (collision.transform.tag == "PlayerBullet")
