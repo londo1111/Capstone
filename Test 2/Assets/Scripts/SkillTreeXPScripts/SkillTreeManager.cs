@@ -10,6 +10,9 @@ public class SkillTreeManager : MonoBehaviour
      * By Benjamin Neuenschwander
      */
 
+    private PlayerMovement plrMovement;
+    private XPManager xpManager;
+
     [SerializeField]
     private Color _purchasedColor;
 
@@ -31,7 +34,10 @@ public class SkillTreeManager : MonoBehaviour
     private GameObject _speedII;
     private GameObject _speedIII;
 
-    private XPManager _xpManager;
+    private GameObject _healthI;
+    private GameObject _healthII;
+    private GameObject _healthIII;
+
     // private PlayerScript _playerScript;
 
 
@@ -47,17 +53,16 @@ public class SkillTreeManager : MonoBehaviour
      * Speed II = 4 (costs 3 levels)
      * Speed II = 5 (costs 5 levels)
      * 
-     * Health I = 150 (costs 1 level)
-     * Health II = 200 (costs 3 levels)
-     * Health III = 250 (costs 5 levels)
+     * Health I = 130 (costs 1 level)
+     * Health II = 160 (costs 3 levels)
+     * Health III = 200 (costs 5 levels)
      * 
-     * Reload I = 1.5 (costs 2 levels)
-     * Reload II = 0.75 (costs 5 levels)
      */
     
     private void Awake()
     {
-        _xpManager = FindObjectOfType<XPManager>();
+        xpManager = FindObjectOfType<XPManager>();
+        plrMovement = FindObjectOfType<PlayerMovement>();
         // _playerScript = FindObjectOfType<PlayerScript>();
 
         _skillTreeCanvas = _parentCanvas.transform.Find("SkillTree").gameObject;
@@ -72,6 +77,10 @@ public class SkillTreeManager : MonoBehaviour
         _speedII = _buttons.transform.Find("Speed2").gameObject;
         _speedIII = _buttons.transform.Find("Speed3").gameObject;
 
+        _healthI = _buttons.transform.Find("Health1").gameObject;
+        _healthII = _buttons.transform.Find("Health2").gameObject;
+        _healthIII = _buttons.transform.Find("Health3").gameObject;
+
         // ^^^ Assigns gameobjects to variables previously declared ^^^
     }
 
@@ -79,7 +88,7 @@ public class SkillTreeManager : MonoBehaviour
     public void ButtonClick(string name) // Declares "ButtonClick" method that accepts a string as a parameter, only the buttons in the canvas use this
     {
         Debug.Log(name);
-        int plrLevel = _xpManager.PlayerLevel;
+        int plrLevel = xpManager.PlayerLevel;
 
         switch (name) // Declares switch statement that inserts the 'name' variable
         {
@@ -103,7 +112,7 @@ public class SkillTreeManager : MonoBehaviour
             case "Damage1": // If name == "Damage1" and playerLevel is greater than or equal to 2, purchases damage I upgrade
                 if (plrLevel >= 2)
                 {
-                    _xpManager.SkillPurchased(1); // Removes the amount of levels via the value passed in
+                    xpManager.SkillPurchased(1); // Removes the amount of levels via the value passed in
                     _damageI.GetComponent<Button>().interactable = false;
                     _damageI.GetComponent<Image>().color = _purchasedColor;
                     _damageII.GetComponent<Button>().interactable = true;
@@ -114,7 +123,7 @@ public class SkillTreeManager : MonoBehaviour
             case "Damage2":
                 if (plrLevel >= 4)
                 {
-                    _xpManager.SkillPurchased(3); // Removes the amount of levels via the value passed in
+                    xpManager.SkillPurchased(3); // Removes the amount of levels via the value passed in
                     _damageII.GetComponent<Button>().interactable = false;
                     _damageII.GetComponent<Image>().color = _purchasedColor;
                     _damageIII.GetComponent<Button>().interactable = true;
@@ -125,7 +134,7 @@ public class SkillTreeManager : MonoBehaviour
             case "Damage3":
                 if (plrLevel >= 6)
                 {
-                    _xpManager.SkillPurchased(5); // Removes the amount of levels via the value passed in
+                    xpManager.SkillPurchased(5); // Removes the amount of levels via the value passed in
                     _damageIII.GetComponent<Button>().interactable = false;
                     _damageIII.GetComponent<Image>().color = _purchasedColor;
                     // _playerScript.weaponDamage = 60f;
@@ -137,29 +146,29 @@ public class SkillTreeManager : MonoBehaviour
             case "Speed1":
                 if (plrLevel >= 2) // If name == "Speed1" and playerLevel is greater than or equal to 2, purchase speed I upgrade
                 {
-                    _xpManager.SkillPurchased(1); // Removes the amount of levels via the value passed in
+                    plrMovement.moveSpeed = 6f;
+                    xpManager.SkillPurchased(1); // Removes the amount of levels via the value passed in
                     _speedI.GetComponent<Button>().interactable = false;
                     _speedII.GetComponent<Button>().interactable = true;
-                    // _playerScript.playerSpeed = 3f;
                 }
                 break;
 
             case "Speed2":
                 if (plrLevel >= 4) // If name == "Speed2" and playerLevel is greater than or equal to 4, purchase speed II upgrade
                 {
-                    _xpManager.SkillPurchased(3); // Removes the amount of levels via the value passed in
+                    plrMovement.moveSpeed = 7f;
+                    xpManager.SkillPurchased(3); // Removes the amount of levels via the value passed in
                     _speedII.GetComponent<Button>().interactable = false;
                     _speedIII.GetComponent<Button>().interactable = true;
-                    // _playerScript.playerSpeed = 4f;
                 }
                 break;
 
             case "Speed3":
                 if (plrLevel >= 6) // If name == "Speed3" and playerLevel is greater than or equal to 6, purchase speed III upgrade
                 {
-                    _xpManager.SkillPurchased(5); // Removes the amount of levels via the value passed in
+                    plrMovement.moveSpeed = 8f;
+                    xpManager.SkillPurchased(5); // Removes the amount of levels via the value passed in
                     _speedIII.GetComponent<Button>().interactable = false;
-                    // _playerScript.playerSpeed = 5f;
                 }
                 break;
         }

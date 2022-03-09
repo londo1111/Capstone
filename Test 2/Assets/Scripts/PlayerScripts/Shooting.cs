@@ -8,10 +8,11 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    public float bulletForce = 20f;
+    [SerializeField]
+    private float bulletForce = 20f;
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
@@ -19,7 +20,7 @@ public class Shooting : MonoBehaviour
         }
     }
 
-    void Shoot()
+    private void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

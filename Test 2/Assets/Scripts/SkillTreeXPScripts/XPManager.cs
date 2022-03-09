@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class XPManager : MonoBehaviour
 {
@@ -19,7 +18,7 @@ public class XPManager : MonoBehaviour
     [Header("UI elements")]
 
     [SerializeField]
-    private Text _levelDisplay;
+    private TextMeshProUGUI _levelDisplay;
     [SerializeField]
     private Image _fillPart;
 
