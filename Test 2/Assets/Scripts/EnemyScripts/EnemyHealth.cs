@@ -18,6 +18,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Awake()
     {
+
         healthBar = transform.Find("HealthCanvas").Find("HealthBar").GetComponent<Image>();
         currentHealth = maxHealth;
     }

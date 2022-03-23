@@ -277,7 +277,6 @@ MonoBehaviour:
   Player: {fileID: 0}
   MoveSpeed: 2
   stoppingDistance: 0
-  gold: {fileID: 4907633111588073266, guid: 7f4b7026704f6ef478203981746b56f2, type: 3}
   offset: 0
 --- !u!61 &8123299942874517103
 BoxCollider2D:

@@ -7,8 +7,8 @@ public class MoneyManager : MonoBehaviour
     private TextMeshProUGUI moneyText;
 
     [SerializeField]
-    private int currentCoins = 0;
-    public int CurrentCoins { get { return currentCoins; } }
+    private static int currentCoins = 0;
+    public static int CurrentCoins { get { return currentCoins; } }
     
     private void Start()
     {
@@ -19,8 +19,6 @@ public class MoneyManager : MonoBehaviour
 
         moneyText = GameObject.FindGameObjectWithTag("GoldDisplay").GetComponent<TextMeshProUGUI>();
         moneyText.text = ": " + currentCoins.ToString();
-
-        DontDestroyOnLoad(gameObject);
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }

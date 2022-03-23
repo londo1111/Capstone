@@ -43,7 +43,7 @@ public class NPCShop : MonoBehaviour
 
         Debug.Log(price);
 
-        if (moneyManager.CurrentCoins >= price)
+        if (MoneyManager.CurrentCoins >= price)
         {
             string newItem;
 

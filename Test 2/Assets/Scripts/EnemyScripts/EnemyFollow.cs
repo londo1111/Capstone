@@ -15,6 +15,8 @@ public class EnemyFollow : MonoBehaviour
     private Vector2 thisPos;
     private float angle;
 
+    private float enemyRange = 10;
+
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -23,16 +25,20 @@ public class EnemyFollow : MonoBehaviour
     void Update()
     {
         //transform.LookAt(Player);
-        if(Vector2.Distance(transform.position, Player.position ) > stoppingDistance)
+        if (Vector2.Distance(transform.position, Player.position) < enemyRange)
         {
-            transform.position = Vector2.MoveTowards(transform.position, Player.position, MoveSpeed * Time.deltaTime);
+            if (Vector2.Distance(transform.position, Player.position) > stoppingDistance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, Player.position, MoveSpeed * Time.deltaTime);
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.tag == "Player")
+        if (collision.transform.CompareTag("Player"))
         {
+            print(collision);
             Scene scene = SceneManager.GetActiveScene(); 
             SceneManager.LoadScene(scene.name);
         }
