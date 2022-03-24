@@ -712,6 +712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6253443512334607287, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6253443512334607292, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -755,6 +759,10 @@ PrefabInstance:
     - target: {fileID: 6253443512334607292, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253443513237811491, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
@@ -994,7 +1002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd25f58b0cbbb6746a7c1bdea8add719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentXP: 0
   _nextLevelXP: 100
   _levelDisplay: {fileID: 1786984234}
   _fillPart: {fileID: 648291021}
@@ -26237,7 +26244,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!114 &1530324178
 MonoBehaviour:

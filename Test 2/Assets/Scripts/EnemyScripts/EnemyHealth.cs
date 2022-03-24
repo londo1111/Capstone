@@ -5,9 +5,14 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
+    private XPManager xpManger;
+
     [SerializeField]
     private int maxHealth = 100;
     private int currentHealth;
+
+    [SerializeField] [Min(10)]
+    private float xpValue;
 
     private Image healthBar;
     [SerializeField]
@@ -18,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Awake()
     {
-
+        xpManger = FindObjectOfType<XPManager>();
         healthBar = transform.Find("HealthCanvas").Find("HealthBar").GetComponent<Image>();
         currentHealth = maxHealth;
     }
@@ -29,11 +34,18 @@ public class EnemyHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            Instantiate(goldPickup, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            PlayerDeath();
         }
 
         UpdateHealthBar();
+    }
+
+    private void PlayerDeath()
+    {
+        xpManger.AddToXPAmount(xpValue);
+
+        Instantiate(goldPickup, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     private void UpdateHealthBar()

@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyFollow : MonoBehaviour
 {
     public Transform Player;
-    public int MoveSpeed = 2;
+    public float MoveSpeed = 2;
     public float stoppingDistance;
 
     public float offset;
@@ -38,7 +38,6 @@ public class EnemyFollow : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            print(collision);
             Scene scene = SceneManager.GetActiveScene(); 
             SceneManager.LoadScene(scene.name);
         }

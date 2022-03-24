@@ -33,7 +33,6 @@ public class NPCShop : MonoBehaviour
         itemSpawn = transform.Find("ItemSpawn");
     }
 
-    // how the npc sells the item and what happens when you don't have enough money
     public void SellItem(int price)
     {
         if (!shopEnabled)
@@ -102,7 +101,6 @@ public class NPCShop : MonoBehaviour
         }
     }
 
-    // player exits the area
     public void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player")) // Checks if player leaves shop trigger box, disables UI if so
