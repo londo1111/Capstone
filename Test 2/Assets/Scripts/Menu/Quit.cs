@@ -18,4 +18,14 @@ void Update()
         Application.Quit();
     }
 }
+
+    public void Back()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void CredtiSOIFJ()
+    {
+        SceneManager.LoadScene(10);
+    }
 }
