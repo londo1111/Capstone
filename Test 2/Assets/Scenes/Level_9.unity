@@ -267,13 +267,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,6 +319,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1001 &146265274
@@ -328,13 +336,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (15)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -376,6 +388,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1001 &220475580
@@ -389,13 +405,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -436,6 +456,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -706,7 +730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268032337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56.133316, y: -0.6919731, z: -2.830471}
+  m_LocalPosition: {x: -56.868317, y: -0.69756114, z: -2.830471}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 828648199}
@@ -795,13 +819,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (17)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -842,6 +870,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -4380,13 +4412,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (6)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4427,6 +4463,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -4574,13 +4614,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4622,6 +4666,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1001 &453843860
@@ -4635,13 +4683,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (9)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4682,6 +4734,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -4806,7 +4862,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd25f58b0cbbb6746a7c1bdea8add719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentXP: 0
   _nextLevelXP: 100
   _levelDisplay: {fileID: 1178842524}
   _fillPart: {fileID: 1189251692}
@@ -4903,7 +4958,7 @@ RectTransform:
   - {fileID: 1613978465}
   - {fileID: 1683945210}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5054,13 +5109,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (10)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5101,6 +5160,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -5248,13 +5311,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (14)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5295,6 +5362,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -6035,13 +6106,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6082,6 +6157,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -6176,6 +6255,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7799926387865273087, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 339342266}
+    - target: {fileID: 7799926387865273087, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
+      propertyPath: healthTitle
+      value: 
+      objectReference: {fileID: 2083781155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ac0b51c98b1e3246bdd6fe5fd61c39d, type: 3}
 --- !u!4 &826350589 stripped
@@ -6213,7 +6300,7 @@ Transform:
   - {fileID: 268032340}
   - {fileID: 1042288690}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &861559641 stripped
 GameObject:
@@ -6231,13 +6318,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (12)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6278,6 +6369,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -72238,7 +72333,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8, y: 1}
+    m_SensorSize: {x: 1.6529914, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -72413,7 +72508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9179407839254322446, guid: 60b7bea5661d4204abbad7820f9f178d, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 9179407839254322446, guid: 60b7bea5661d4204abbad7820f9f178d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72818,13 +72913,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (13)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72866,6 +72965,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1001 &1544163294
@@ -72879,13 +72982,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (8)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -72926,6 +73033,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -73299,13 +73410,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73347,6 +73462,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1 &1713004281
@@ -73386,6 +73505,75 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1713297487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8194154822545109153, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194154822545109156, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_Name
+      value: Shadow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
 --- !u!1 &1771065212
 GameObject:
   m_ObjectHideFlags: 0
@@ -73444,13 +73632,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73492,6 +73684,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1001 &1816036701
@@ -73505,13 +73701,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (19)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73553,6 +73753,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1001 &1833690119
@@ -73566,13 +73770,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73613,6 +73821,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -73854,13 +74066,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (16)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73901,6 +74117,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -78297,13 +78517,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (18)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -78344,6 +78568,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -78633,13 +78861,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517090, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 826350589}
     - target: {fileID: 8123299942874517091, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_Name
       value: Rare Classy Ghost (11)
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalPosition.x
@@ -78680,6 +78912,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
