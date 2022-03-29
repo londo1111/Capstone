@@ -3533,7 +3533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268032337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -58.288116, y: -24.84936, z: -10}
+  m_LocalPosition: {x: -41.282158, y: -24.670372, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 828648199}
@@ -4471,6 +4471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8194154822545109152, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4711,6 +4715,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -5033,7 +5041,7 @@ Transform:
   - {fileID: 268032340}
   - {fileID: 1042288690}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &843548215
 PrefabInstance:
@@ -5089,6 +5097,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -5146,6 +5158,10 @@ PrefabInstance:
     - target: {fileID: 8123299942874517100, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
@@ -73169,7 +73185,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8, y: 1}
+    m_SensorSize: {x: 5.2015676, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -73941,6 +73957,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1 &1354060386
@@ -74393,7 +74413,7 @@ RectTransform:
   - {fileID: 1792096221}
   - {fileID: 507346289}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -75055,6 +75075,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8123299942874517103, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3bdc36f57d8644b944499501367428, type: 3}
 --- !u!1001 &1831669241
@@ -75064,6 +75088,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8194154822545109152, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8194154822545109155, guid: 6e9d7496e5b924b4aac159fc46e04a10, type: 3}
       propertyPath: m_RootOrder
       value: 1
