@@ -5,15 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Dont Touch Joey these are your test scenes/Transition.unity
-    guid: c1a89e92d67b6434c9117597b2e0327d
-  - enabled: 0
-    path: Assets/Scenes/Dont Touch Joey these are your test scenes/TestScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 354a0b70c146622498c5f2e15a0b95ad
@@ -39,12 +30,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_7.unity
     guid: 487e02f9f9d188d4fbb03eeb8ba88661
   - enabled: 1
-    path: Assets/Scenes/Level_8.unity
-    guid: 386cfca60f6614344add7ac654c0e3f1
-  - enabled: 1
     path: Assets/Scenes/Level_9.unity
-    guid: d64022a6661239f4e9e86dc0e2550a93
-  - enabled: 1
-    path: Assets/Scenes/Level_10.unity
     guid: 610a27a5cd5c31b478eda14c846aed1d
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 3498755cad3a7cc4293f941fe6c5ce4c
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 16ee92d0279717d4382d3279182fdfa5
   m_configObjects: {}

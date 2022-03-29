@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 2917939509481309143}
   - component: {fileID: 2889604799659576622}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: HealthCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,8 +111,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 15, y: 263}
-  m_SizeDelta: {x: 255.2441, y: 85.6201}
+  m_AnchoredPosition: {x: -0.0186, y: 0.9244}
+  m_SizeDelta: {x: 2.4576, y: 0.7154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &338265380682332212
 Canvas:
@@ -317,6 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  xpValue: 20
   goldPickup: {fileID: 4907633111588073266, guid: 7f4b7026704f6ef478203981746b56f2, type: 3}
   barColor:
     serializedVersion: 2
