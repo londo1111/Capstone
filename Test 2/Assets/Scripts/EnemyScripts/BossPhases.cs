@@ -7,46 +7,41 @@ public class BossPhases : MonoBehaviour
 {
     public Transform Player;
     public int MoveSpeed = 2;
-    public int healthInitial = 10;  // The Enemy's health at the start
-    private int healthCurrent;  // The Enemy's health right now
+    public float stoppingDistance;
 
-    void Update()
-    {
-        transform.LookAt(Player);
-        transform.position += transform.forward * MoveSpeed * Time.deltaTime;
-    }
+    public float offset;
+
+    private Vector2 targetPos;
+    private Vector2 thisPos;
+    private float angle;
+
+    private float enemyRange = 10;
+
 
     void Start()
     {
-        ResetHealth();  // Initialiase the Enemy's current health
+        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
-    public void ResetHealth()   // Sets the Enemy's current health back to its initial value
+    void Update()
     {
-        healthCurrent = healthInitial; // Initialise the Enemy's current health
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.transform.tag == "Player")
+        //transform.LookAt(Player);
+        if (Vector2.Distance(transform.position, Player.position) < enemyRange)
         {
-            SceneManager.LoadScene("Level 1");
+            if (Vector2.Distance(transform.position, Player.position) > stoppingDistance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, Player.position, MoveSpeed * Time.deltaTime);
+            }
         }
     }
 
-    public void TakeDamage(int damageAmount)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        healthCurrent -= damageAmount;
-        if (healthCurrent <= 5)
+        if (collision.transform.CompareTag("Player"))
         {
-            MoveSpeed = 10;
-        }
-
-        if (healthCurrent <= 0)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            // Kill the Enemy
-            Destroy(gameObject);
+            print(collision);
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
         }
     }
 }
