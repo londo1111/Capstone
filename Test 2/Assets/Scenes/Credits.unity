@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -92}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -329, y: -196}
+  m_SizeDelta: {x: 114.7237, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &51371822
 MonoBehaviour:
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
-  m_FillCenter: 0
+  m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
@@ -291,7 +291,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 44.0238, y: 24.7803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463082912
 MonoBehaviour:
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.29516736, g: 0.30402339, b: 0.31132078, a: 0.6901961}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -504,7 +504,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -628,6 +628,7 @@ GameObject:
   - component: {fileID: 1938896381}
   - component: {fileID: 1938896386}
   - component: {fileID: 1938896385}
+  - component: {fileID: 1938896387}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -742,6 +743,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b11fa368776c214b8069fbe51bdf63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1938896387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938896380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c2272b00938ad4685b9b512e837a6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creditText: {fileID: 2088920807}
+  scrollTime: 20
 --- !u!1 &2088920806
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,7 +769,7 @@ GameObject:
   - component: {fileID: 2088920809}
   - component: {fileID: 2088920808}
   m_Layer: 5
-  m_Name: Title
+  m_Name: CreditsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -774,10 +789,10 @@ RectTransform:
   m_Father: {fileID: 1938896384}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: 84}
-  m_SizeDelta: {x: -369.2523, y: -272.8544}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -955.6}
+  m_SizeDelta: {x: 430.7477, y: 1436.1161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2088920808
 MonoBehaviour:
@@ -799,9 +814,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Good luck finding your phone. Wasd to move and mouse to look. Good luck
-
-'
+  m_text: "<size=35> <b> PERIOD 6 & 7 CAPSTONE TEAM </b> </size>\n\n\n\n<color=#15FF03>
+    <b>PROJECT MANAGERS</b>\n\nLondon Burge\nErin Hibnick\nAzriel Lozano\n</color>
+    \n\n<color=#FF3232> <b>PROGRAMMING ROLES</b>\n\nBenjamin Neuenschwander\nJared
+    C.\nLorenzo Polite\nJustin MIller\nChristian Miller\nDerek Andino\nBobby Tempe\nTriston
+    Sampson\nMarcus Frost\n\n\n<color=#2D28FF> <b>LEVEL DESIGNERS</b>\n\nAster Torellas\nNathaniel
+    M.\nAden Bear\nHailey Allen\nFelix N.\nLiam Nies\nSean Nicholis\nRiley Reeves\nDerek
+    Robert\nMacCaidin Martinez\nDerek Andino\n\n\n<color=#EAEF2A> <b>DEBUGGING TEAM</b>\n\nLondon
+    Burge\nBenjamin Neuenschwander\nAzrieal Lozano\nErin Hinbik\n\n\n<b>MUSIC</b>\nBenjamin
+    Neuenschwander\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -834,7 +855,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

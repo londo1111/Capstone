@@ -26,14 +26,6 @@ public class PlayerHealth : MonoBehaviour
         healthBar.color = healthBarColor.Evaluate((float)currentHealth / (float)maxHealth);
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            TakeDamage(10);
-        }
-    }
-
     public void TakeDamage(int amount)
     {
         currentHealth -= Mathf.Abs(amount);
