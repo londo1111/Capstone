@@ -32,6 +32,11 @@ public class XPManager : MonoBehaviour
     private void Update()
     {
         UpdateXPBar(); // Calls UpdateXPBar method every frame
+
+        if (Input.GetKey(KeyCode.G))
+        {
+            AddToXPAmount(50f);
+        }
     }
 
     public void AddToXPAmount(float amountToAdd) // Declares public method that accepts a float value

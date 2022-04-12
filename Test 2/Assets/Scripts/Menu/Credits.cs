@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,7 +17,7 @@ public class Credits : MonoBehaviour
 
     private IEnumerator RollCredits()
     {
-        creditText.LeanMoveLocal(new Vector2(0f, 955f), scrollTime).callOnCompletes();
+        creditText.LeanMoveLocal(new Vector2(0f, 955f), scrollTime);
 
         yield return new WaitForSeconds(scrollTime);
 
