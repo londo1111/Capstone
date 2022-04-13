@@ -142,7 +142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  xpValue: 30
+  xpKillValue: 40
+  xpDmgValue: 10
   goldPickup: {fileID: 4907633111588073266, guid: 7f4b7026704f6ef478203981746b56f2, type: 3}
   barColor:
     serializedVersion: 2

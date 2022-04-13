@@ -9,8 +9,11 @@ public class EnemyHealth : MonoBehaviour
     private int maxHealth = 100;
     private int currentHealth;
 
-    [SerializeField] [Min(10)]
-    private float xpValue;
+    [SerializeField] [Min(10f)]
+    private float xpKillValue;
+
+    [SerializeField] [Min(5f)]
+    private float xpDmgValue;
 
     private Image healthBar;
 
@@ -19,6 +22,9 @@ public class EnemyHealth : MonoBehaviour
 
     [SerializeField]
     private Gradient barColor;
+
+    [SerializeField]
+    private bool isBoss = false;
 
     private void Awake()
     {
@@ -41,10 +47,17 @@ public class EnemyHealth : MonoBehaviour
 
     private void PlayerDeath()
     {
-        xpManager.AddToXPAmount(xpValue);
+        xpManager.AddToXPAmount(xpKillValue);
 
-        Instantiate(goldPickup, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        if (goldPickup != null)
+        {
+            Instantiate(goldPickup, transform.position, Quaternion.identity);
+        }
+
+        if (isBoss)
+        {
+            GetComponent<BossMain>().Death();
+        }
     }
 
     private void UpdateHealthBar()
@@ -62,6 +75,7 @@ public class EnemyHealth : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Damage(SkillTreeManager.BulletDamage);
+            xpManager.AddToXPAmount(xpDmgValue);
         }
     }
 }
