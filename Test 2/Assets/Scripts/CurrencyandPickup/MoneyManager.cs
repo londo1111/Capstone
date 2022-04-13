@@ -27,7 +27,7 @@ public class MoneyManager : MonoBehaviour
     {
         Debug.Log("Loaded scene " + scene.name);
 
-        if (scene.buildIndex == 0)
+        if (scene.buildIndex == 0 && gameObject != null)
         {
             Destroy(gameObject);
         }

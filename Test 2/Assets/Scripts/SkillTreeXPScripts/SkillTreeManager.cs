@@ -33,7 +33,10 @@ public class SkillTreeManager : MonoBehaviour
     private GameObject _speedII;
     private GameObject _speedIII;
 
-    private static bool[] purchases = new bool[5];
+    private static readonly bool[] purchases = new bool[5];
+
+    private static int bulletDamage = 10;
+    public static int BulletDamage { get { return bulletDamage; } }
 
     // private PlayerScript _playerScript;
 
@@ -110,7 +113,7 @@ public class SkillTreeManager : MonoBehaviour
                     _damageI.GetComponent<Button>().interactable = false;
                     _damageI.GetComponent<Image>().color = _purchasedColor;
                     _damageII.GetComponent<Button>().interactable = true;
-                    // _playerScript.weaponDamage = 35f;
+                    bulletDamage = 15;
                     purchases[0] = true;
                 }
                 break;
@@ -122,7 +125,7 @@ public class SkillTreeManager : MonoBehaviour
                     _damageII.GetComponent<Button>().interactable = false;
                     _damageII.GetComponent<Image>().color = _purchasedColor;
                     _damageIII.GetComponent<Button>().interactable = true;
-                    // _playerScript.weaponDamage = 45f;
+                    bulletDamage = 20;
                     purchases[1] = true;
                 }
                 break;
@@ -133,7 +136,7 @@ public class SkillTreeManager : MonoBehaviour
                     xpManager.SkillPurchased(5); // Removes the amount of levels via the value passed in
                     _damageIII.GetComponent<Button>().interactable = false;
                     _damageIII.GetComponent<Image>().color = _purchasedColor;
-                    // _playerScript.weaponDamage = 60f;
+                    bulletDamage = 25;
                     purchases[2] = true;
                 }
                 break;
@@ -189,20 +192,17 @@ public class SkillTreeManager : MonoBehaviour
                         _damageI.GetComponent<Button>().interactable = false;
                         _damageI.GetComponent<Image>().color = _purchasedColor;
                         _damageII.GetComponent<Button>().interactable = true;
-                        // _playerScript.weaponDamage = 35f;
                         break;
 
                     case 1:
                         _damageII.GetComponent<Button>().interactable = false;
                         _damageII.GetComponent<Image>().color = _purchasedColor;
                         _damageIII.GetComponent<Button>().interactable = true;
-                        // _playerScript.weaponDamage = 45f;
                         break;
 
                     case 2:
                         _damageIII.GetComponent<Button>().interactable = false;
                         _damageIII.GetComponent<Image>().color = _purchasedColor;
-                        // _playerScript.weaponDamage = 60f;
                         break;
 
                     case 3:
@@ -227,5 +227,15 @@ public class SkillTreeManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public static void ResetSkills()
+    {
+        for (int i = 0; i < purchases.Length; i++)
+        {
+            purchases[i] = false;
+        }
+
+        bulletDamage = 10;
     }
 }

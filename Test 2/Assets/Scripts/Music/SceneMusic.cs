@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,21 +14,32 @@ public class SceneMusic : MonoBehaviour
         originalScene = SceneManager.GetActiveScene().buildIndex;
         audioSrc.Play();
 
-        if (FindObjectsOfType<SceneMusic>().Length > 1) { Destroy(gameObject); }
+        if (FindObjectsOfType<SceneMusic>().Length > 1)
+        {
+            Destroy(gameObject);
+        }
 
         DontDestroyOnLoad(gameObject);
     }
 
     private void Update()
     {
-        SceneManager.sceneLoaded += SceneLoaded;
-    }
-
-    private void SceneLoaded(Scene loadedScene, LoadSceneMode mode)
-    {
         if (SceneManager.GetActiveScene().buildIndex != originalScene)
         {
             Destroy(gameObject);
         }
+
+        // SceneManager.sceneLoaded += SceneLoaded;
     }
+
+    /*
+    private void SceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log(scene.buildIndex);
+        if (scene.buildIndex != originalScene || FindObjectsOfType<SceneMusic>().Length > 1)
+        {
+            Destroy(gameObject);
+        }
+    }
+    */
 }

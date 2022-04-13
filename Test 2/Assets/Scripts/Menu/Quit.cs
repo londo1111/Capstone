@@ -8,14 +8,6 @@ public class Quit : MonoBehaviour
         Application.Quit();     
     }
 
-    private void Update()
-    {
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
-    }
-
     public void Back()
     {
         SceneManager.LoadScene(0);

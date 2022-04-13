@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    private XPManager xpManger;
+    private XPManager xpManager;
 
     [SerializeField]
     private int maxHealth = 100;
@@ -15,6 +13,7 @@ public class EnemyHealth : MonoBehaviour
     private float xpValue;
 
     private Image healthBar;
+
     [SerializeField]
     private GameObject goldPickup;
 
@@ -23,7 +22,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Awake()
     {
-        xpManger = FindObjectOfType<XPManager>();
+        xpManager = FindObjectOfType<XPManager>();
         healthBar = transform.Find("HealthCanvas").Find("HealthBar").GetComponent<Image>();
         currentHealth = maxHealth;
     }
@@ -42,7 +41,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void PlayerDeath()
     {
-        xpManger.AddToXPAmount(xpValue);
+        xpManager.AddToXPAmount(xpValue);
 
         Instantiate(goldPickup, transform.position, Quaternion.identity);
         Destroy(gameObject);
@@ -62,7 +61,7 @@ public class EnemyHealth : MonoBehaviour
         if (collision.CompareTag("PlayerBullet"))
         {
             Destroy(collision.gameObject);
-            Damage(10);
+            Damage(SkillTreeManager.BulletDamage);
         }
     }
 }

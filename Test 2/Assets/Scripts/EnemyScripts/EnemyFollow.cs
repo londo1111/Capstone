@@ -1,28 +1,27 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
     public Transform Player;
+    private PlayerHealth playerHealth;
+
     public float MoveSpeed = 2;
     public float stoppingDistance;
 
     public float offset;
 
-    private Vector2 targetPos;
-    private Vector2 thisPos;
-    private float angle;
+    private const float enemyRange = 10;
 
-    private float enemyRange = 10;
+    private bool canDamage = true;
 
-    void Start()
+    private void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        playerHealth = FindObjectOfType<PlayerHealth>();
+        Player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    void Update()
+    private void Update()
     {
         //transform.LookAt(Player);
         if (Vector2.Distance(transform.position, Player.position) < enemyRange)
@@ -34,13 +33,22 @@ public class EnemyFollow : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.transform.CompareTag("Player"))
+        if (collision.transform.CompareTag("Player") && canDamage)
         {
-            Scene scene = SceneManager.GetActiveScene(); 
-            SceneManager.LoadScene(scene.name);
+            StartCoroutine(Damage());
         }
+    }
+
+    private IEnumerator Damage()
+    {
+        canDamage = false;
+        playerHealth.TakeDamage(20);
+
+        yield return new WaitForSeconds(0.5f);
+
+        canDamage = true;
     }
 
     /*

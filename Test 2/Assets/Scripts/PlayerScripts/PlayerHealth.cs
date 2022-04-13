@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -22,6 +20,9 @@ public class PlayerHealth : MonoBehaviour
 
     private void Awake()
     {
+        healthBar = GameObject.FindGameObjectWithTag("HealthUI").transform.GetChild(1).GetComponent<Image>();
+        healthTitle = GameObject.FindGameObjectWithTag("HealthUI").transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+
         currentHealth = maxHealth;
         healthBar.color = healthBarColor.Evaluate((float)currentHealth / (float)maxHealth);
     }

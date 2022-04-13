@@ -42,7 +42,6 @@ public class XPManager : MonoBehaviour
     public void AddToXPAmount(float amountToAdd) // Declares public method that accepts a float value
     {
         _currentXP += amountToAdd; // Adds passed in value to current XP amount
-        print(_currentXP);
 
         if (_currentXP >= _nextLevelXP) // If XP amount >= then next level requirement, level up
         {
@@ -77,5 +76,11 @@ public class XPManager : MonoBehaviour
         {
             PlayerLevelUp(1);
         }
+    }
+
+    public static void ResetStats()
+    {
+        playerLevel = 0;
+        _currentXP = 0f;
     }
 }
